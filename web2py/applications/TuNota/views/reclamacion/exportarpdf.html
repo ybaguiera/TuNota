@@ -1,0 +1,190 @@
+{{extend 'layout_ela.html'}}
+
+
+{{block head}}
+<style>
+    .mov_mb {
+
+    }
+
+    .mov_mb > tbody > tr > td {
+        color: black;
+        text-align: left;
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+
+    .mov_mb > tbody > tr > td > p {
+        color: black;
+        margin: auto;
+        margin-right: inherit !important;
+    }
+
+    .center_file {
+        text-align: center !important;
+    }
+
+    .right_file {
+        text-align: right !important;
+        margin-right: 10px !important;
+    }
+
+    .text_top {
+        vertical-align: top;
+    }
+
+    #jqSegmentedDisplay {
+        display: flex;
+    }
+
+    #jqSegmentedDisplay > div {
+        margin-right: 20px;
+    }
+
+</style>
+
+
+{{end}}
+
+{{block page_js}}
+<script src="{{=URL('static','vendor/js-pdf/html2pdf.min.js')}}"></script>
+<script src="{{=URL('static','vendor/js-pdf/html2canvas.js')}}"></script>
+<script src="{{=URL('static','vendor/js-pdf/jspdf.min.js')}}"></script>
+
+
+<script type="text/javascript">
+
+    function imprSelec(jqSegmentedDisplay) {
+        var ficha = document.getElementById(jqSegmentedDisplay);
+        var ventimp = window.open(' ', 'popimpr');
+        ventimp.document.write(ficha.innerHTML);
+        ventimp.document.close();
+        ventimp.print();
+        ventimp.close();
+    }
+
+    function genPDF() {
+        var element = document.getElementById('jqSegmentedDisplay');
+        var opt = {
+            margin: [0.2, 0.2, 0.2, 0.2],
+            filename: 'fichero.pdf',
+            image: {type: 'jpeg', quality: 0.50},
+            html2canvas: {scale: 3},
+            jsPDF: {unit: 'in', format: 'letter', orientation: 'landscape'}
+        };
+
+        html2pdf().from(element).set(opt).save();
+
+// New Promise-based usage:
+//        html2pdf().from(element2).set(opt).save();
+
+// Old monolithic-style usage:
+        // html2pdf(element, opt);
+    }
+
+
+</script>
+
+{{end}}
+
+<div class="col-lg-12">
+ <div class="modal-footer">
+							                 
+                                            <button type="submit" class="btn btn-primary" onclick="javascript:genPDF()">Generar documento</button>
+						                   </div>
+<div class="card" id="jqSegmentedDisplay">
+
+                             
+                    <div class="account2">
+                    <div class="image  img-120">
+                        <img src="{{=URL('static','images/logo.png')}}" alt="John Doe" />
+                    </div>
+                    <h4 class="name">Universidad de Ciego de Ávila Máximo Gómez Báez</h4>
+                    <a href="#">Secretaría General</a>
+                </div>
+                <div class="card-body card-block" >                      
+ 
+ <div class="table-responsive table-data">
+ <h4>Reclamaciones de la Convocatoria {{=tipo_e.tipo}}</h4>  
+  </br>
+  <div class="col-lg-4">
+  <p><h4>Asignatura: &nbsp {{=asig.nombre}} </h4></p>
+ </div>
+ </br>
+  <div class="col-lg-4">
+ <h4>Fecha: &nbsp{{=fecha}}</h4> 
+ </div>
+ </br>
+
+ 
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                <td>
+                                                <h5>No</h5>
+                                                    </td>
+                                                    <td>
+                                                <h5>Nombre y apellidos</h5>
+                                                    </td>
+                                                    <td><h5>CI</h5></td>
+                                                    <td><h5>Centro</h5></td>
+                                                    <td><h5>Nota</h5></td>
+                                                    
+                                                    
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                            {{cont=0}}
+                                            {{for rec in id_notas:}}
+                                            {{estudiantes=db((db.estudiante.id_curso==session.cur)&(db.estudiante.id==rec.id_estudiante)).select().first()}}
+                                            {{reclamaciones=db(db.reclamacion.id_notas==rec.id).select().first()}}
+
+                                              {{if not reclamaciones is None and not estudiantes is None:}}
+                                                <tr>
+                                                    <td>
+                                                       <div class="table-data__info">
+                                                            <h6>{{cont=cont+1}}{{=cont}}</h6>
+                                                            
+                                                        </div> 
+                                                    </td>
+                                                    <td>
+                                                        <div class="table-data__info">
+                                                            <h6>{{=rec.id_estudiante.nombre_apellidos}}</h6>
+                                                            
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                      <div class="table-data__info">
+                                                            <h6>{{=rec.id_estudiante.ci}}</h6>
+                                                            
+                                                        </div>  
+                                                    </td>
+                                                    <td>
+                                                       <div class="table-data__info">
+                                                            <h6>{{=rec.id_estudiante.centro}}</h6>
+                                                            
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                      <div class="table-data__info">
+                                                            <h6>{{=rec.nota}}</h6>
+                                                            
+                                                        </div>  
+                                                    </td>
+                                                  
+                                                </tr>
+                                            {{pass}}
+                                            {{pass}}   
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                   
+                                </div>
+							
+                            
+                            </div>                                  
+                              </div>
+                                
+
+

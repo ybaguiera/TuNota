@@ -1,0 +1,275 @@
+{{extend 'layout_ela.html'}}
+
+{{block header}}
+<!--
+<div class="jumbotron jumbotron-fluid" style="background-color: #333; color:white; padding:30px;word-wrap:break-word;">
+    <div class="container center">
+        <h1 class="display-5">/{{=request.application}}/{{=request.controller}}/{{=request.function}}</h1>
+    </div>
+</div>
+-->
+{{end}}
+
+
+
+
+{{if request.args(0)=="error":}}
+
+                <div class="col-lg-12">
+                   <div class="alert alert-danger alert-mg-b alert-success-style4">
+                            <button type="button" class="close sucess-op" data-dismiss="alert" aria-label="Close">
+                                <span class="icon-sc-cl" aria-hidden="true">&times;</span>
+                            </button>
+                            <span class="adminpro-icon adminpro-danger-error admin-check-sucess"></span>
+                            <p><strong>Error!</strong> Introdujo un carnet incorrecto o no existe ningún estudiante con ese carnet</p>
+                    
+                    </div>
+                </div>
+              
+      
+
+{{pass}} 
+{{if request.args(0)=="error1":}}
+
+                <div class="col-lg-12">
+                   <div class="alert alert-danger alert-mg-b alert-success-style4">
+                            <button type="button" class="close sucess-op" data-dismiss="alert" aria-label="Close">
+                                <span class="icon-sc-cl" aria-hidden="true">&times;</span>
+                            </button>
+                            <span class="adminpro-icon adminpro-danger-error admin-check-sucess"></span>
+                            <p><strong>Error!</strong> No existe ningun curso creado en el sistema</p>
+                    
+                    </div>
+                </div>
+              
+      
+
+{{pass}} 
+
+<div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong>{{=T("Bienvenidos!")}}</strong>
+                                        
+                                    </div>
+                                    <div class="card-body card-block">
+                                      
+ <img src="{{=URL('static','images/portada2.jpg')}}" alt="NPIngreso" />
+                                      <div class="card-body card-block">
+                                             <div class="row form-group">
+                                                <div class="col col-md-12" style=" text-align: justify;">                                                  
+                       
+                                                    <p>Este es el sitio para mostrar las notas de la pruebas de ingreso y realizar las reclamaciones pertinentes. Para buscar las notas de los estudiantes debe teclear el carnet de identidad en cualquiera de los dos recuadros donde se lo indican.</p>
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                                                           
+                                      </div>
+                                       
+                                    </div>                                    
+                
+                                   
+                                </div>
+                            </div>
+
+                           <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong>{{=T("Buscar nota!")}}</strong>
+                                        
+                                    </div>
+                                    <div class="card-body card-block">
+                                      
+
+                                      <div class="card-body card-block">
+                                     <form action="{{=URL('estudiante', 'detalles')}}" method="POST" id="formBuscar">       
+                                            <div class="row form-group">
+                                                <div class="col col-md-3">
+                                                    <label for="text-input" class=" form-control-label">Carnet de identidad</label>
+                                                </div>
+                                                <div class="col-12 col-md-9">
+                                                    <input type="text" id="ci" name="ci" placeholder="00000000000" class="form-control" required>
+                                                    <small class="form-text text-muted">Para buscar las notas por favor introduzca el carnet de identidad del estudiante</small>
+                                                </div>
+                                            </div>
+                                            <div class="card-footer">
+                                        <button type="submit" class="btn btn-primary btn-sm">
+                                            <i class="fa fa-dot-circle-o"></i> Buscar
+                                        </button>                                        
+                                    </div>
+                                        </form>
+                                    </div>                                    
+                
+                                    </div>
+                                </div>
+                            </div>
+
+                           
+     <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong>{{=T("Calendario de exámenes de ingreso")}}</strong>
+                                        
+                                    </div>
+                                    <div class="card-body card-block">
+                                      <div class="row">
+   {{if not fechas is None:}}                              
+   {{for fecha in fechas:}}
+          
+                            <div class="col-lg-4">
+                                <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
+                                    <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
+                                        <div class="bg-overlay bg-overlay--blue"></div>
+                                        <h3>
+                                            {{=fecha.id_asignatura.nombre}}</h3>                                       
+                                    </div>
+                                    <div class="au-task js-list-load">
+                                        <div class="au-task__title">
+                                            <p>{{=fecha.id_tipo_examen.tipo}}</p>
+                                        </div>
+                                        <div class="au-task-list js-scrollbar3">
+                                            <div class="au-task__item au-task__item--success">
+                                                <div class="au-task__item-inner">
+                                                    <h1 class="task">
+                                                       <a href="#">Fecha de realización</a>
+                                                    </h1>  
+                                                    {{if not fecha.fecha_realizacion is None:}}
+                                                <span class="time">{{=fecha.fecha_realizacion}}</span>                                                 
+                                                  {{else:}}
+                                                   <h3>No se ha definido</h3>
+                                                    {{pass}}
+                                                  </div>
+                                            </div>
+                                           
+                                        </div>
+                                         <div class="au-task__item au-task__item--warning">
+                                                <div class="au-task__item-inner">
+                                                    <h5 class="task">
+                                                        <a href="#">Fecha de publicación</a>
+                                                    </h5>
+                                                    {{if not fecha.fecha_publicacion is None:}}
+                                               <span class="time">{{=fecha.fecha_publicacion}}</span>
+                                                  {{else:}}
+                                                   <h3>No se ha definido</h3>
+                                                    {{pass}}
+                                                  </div>
+                                            </div>
+                                            <div class="au-task__item au-task__item--primary">
+                                                <div class="au-task__item-inner">
+                                                    <h5 class="task">
+                                                        <a href="#">Fecha de reclamación</a>
+                                                    </h5>
+                                                    {{if not fecha.fecha_reclamacion is None:}}
+                                           <span class="time">{{=fecha.fecha_reclamacion}}</span>
+                                               {{else:}}
+                                                   <h3>No se ha definido</h3>
+                                                     {{pass}}
+                                                </div>
+                                            </div>
+                                             <div class="au-task__item au-task__item--primary">
+                                                <div class="au-task__item-inner">
+                                                    <h5 class="task">
+                                                        <a href="#">Fecha de publicación de la reclamación</a>
+                                                    </h5>
+                                                    {{if not fecha.fecha_publicacion_reclamacion is None:}}
+                                           <span class="time">{{=fecha.fecha_publicacion_reclamacion}}</span>
+                                               {{else:}}
+                                                   <h3>No se ha definido</h3>
+                                                     {{pass}}
+                                                </div>
+                                            </div>
+                                        <div class="au-task__item au-task__item--success">
+                                                <div class="au-task__item-inner">
+                                                    <h5 class="task">
+                                                        <a href="#">Fecha de solicitud de mostrado</a>
+                                                    </h5>
+                                                    {{if not fecha.fecha_reclamacion_mostrado is None:}}
+                                                    <span class="time">{{=fecha.fecha_reclamacion_mostrado}}</span>
+                                               {{else:}}
+                                                   <h3>No se ha definido</h3>
+                                                                                             {{pass}}
+                                                </div>
+                                            </div>
+                                             
+                                    </div>
+                                </div>
+                            </div>
+                            
+                      
+                                        
+   {{pass}} 
+  {{pass}} 
+   </div>
+
+                                     
+                                    </div>                                    
+                
+                                    
+                                </div>
+                            </div>
+   
+   <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong>{{=T("Calendario de otorgamiento")}}</strong>
+                                        
+                                    </div>
+                                    <div class="card-body card-block">
+                                      <div class="row">
+       {{if not otorgamientos is None:}}                                 
+   {{for otor in otorgamientos:}}
+          
+                            <div class="col-lg-4">
+                                <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
+                                    <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
+                                        <div class="bg-overlay bg-overlay--blue"></div>
+                                        <h3>
+                                            {{=otor.numero}} Otorgamiento</h3>                                       
+                                    </div>
+                                    <div class="au-task js-list-load">
+                                        
+                                        <div class="au-task-list js-scrollbar3">
+                                            <div class="au-task__item au-task__item--success">
+                                                <div class="au-task__item-inner">
+                                                    <h1 class="task">
+                                                       <a href="#">Fecha</a>
+                                                    </h1>  
+                                                    {{if not otor.fecha is None:}}
+                                                <span class="time">{{=otor.fecha}}</span>                                                 
+                                                  {{else:}}
+                                                   <h3>No se ha definido</h3>
+                                                    {{pass}}
+                                                  </div>
+                                            </div>
+                                           
+                                        </div>
+                                        
+                                           
+                                            
+                                       
+                                             
+                                    </div>
+                                </div>
+                            </div>
+                            
+                      
+      {{pass}}                                    
+   {{pass}} 
+ 
+ 
+   </div>
+
+                                     
+                                    </div>                                    
+                
+                                    
+                                </div>
+                            </div>
+   
+
+                
+
+
+
+

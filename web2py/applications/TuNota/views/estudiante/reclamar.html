@@ -1,0 +1,136 @@
+{{extend 'layout_ela.html'}}
+{{block header}}
+<style>
+
+
+    #DataTables_Table_0_paginate, #DataTables_Table_0_info {
+        padding: 20px !important;
+    }
+
+    table {
+        width: 100% !important;
+    }
+
+    .respAsig {
+        margin-top: 70px;
+    }
+
+    h2 {
+        margin-bottom: 0px !important;
+    }
+
+    .detalles {
+        width: 20% !important;
+    }
+
+    .alinear {
+        padding-right: 30px !important;
+    }
+
+    tr > td {
+        padding: 8px !important;
+    }
+
+    .card-body {
+        padding: 10px !important;
+
+    }
+</style>
+{{end}}
+{{block page_js}}
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/datatables.min.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/datatables-init.js')}}"></script>
+
+
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/datatables-init.js')}}"></script>
+
+<script>
+    $('.web2py_htmltable').find('table').DataTable({
+        dom: 'lfrtiBp',
+        buttons: [
+            {
+                extend: 'pdfHtml5',
+                text: 'Generar reporte PDF',
+                title: 'Listado de responsables',
+                filename: 'Responsables',
+                pageSize: 'LETTER',
+                exportOptions: {
+                    columns: [0]
+                },
+                customize: function (doc) {
+                    doc.content[1].table.widths = [
+                        '100%',
+                        '0%'
+                    ]
+                }
+            }
+        ],
+        language: {
+            "decimal": "",
+            "emptyTable": "{{=T("No hay información")}}",
+            "info": "{{=T("Mostrando _START_ a _END_ de _TOTAL_ Entradas")}}",
+            "infoEmpty": "{{=T("Mostrando 0 to 0 of 0 Entradas")}}",
+            "infoFiltered": "{{=T("(Filtrado de _MAX_ total entradas)")}}",
+            "infoPostFix": "",
+            "thousands": ",",
+            "lengthMenu": "{{=T("Mostrar _MENU_ Entradas")}}",
+            "loadingRecords": "{{=T("Cargando...")}}",
+            "processing": "{{=T("Procesando...")}}",
+            "search": "{{=T("Buscar:")}}",
+            "zeroRecords": "{{=T("Sin resultados encontrados")}}",
+            "paginate": {
+                "first": "{{=T("Primero")}}",
+                "last": "{{=T("Último")}}",
+                "next": "{{=T("Siguiente")}}",
+                "previous": "{{=T("Anterior")}}"
+            }
+
+        }
+    });
+    $('.web2py_htmltable').find('table').addClass('display nowrap table table-hover table-striped table-bordered');
+</script>
+{{end page_js}}
+
+
+ <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong>{{=T("Generar reclamación")}}</strong>
+                                        
+                                    </div>
+                                    <div class="card-body card-block">
+                                      
+
+                                      <div class="card-body card-block">
+                                      <form action="{{=URL('estudiante','guardar')}}" method="POST" id="formBuscar">    
+                                            <div class="row form-group">
+                                                <div class="col col-md-3">
+                                                    <label for="text-input" class=" form-control-label">Correo electrónico</label>
+                                                </div>
+                                                <div class="col-12 col-md-9">
+                                                    <input type="email" class="form-control" id="correo" name="correo"/>
+                                                    <small class="form-text text-muted">Por favor introduzca un correo electrónico </small>
+                                                </div>
+                                            </div>
+                                            <div class="card-footer">
+                                        <button type="submit" class="btn btn-primary btn-sm">
+                                            <i class="fa fa-dot-circle-o"></i> Aceptar
+                                        </button>                                        
+                                    </div>
+                                        </form>
+                                    </div>                                    
+                
+                                    </div>
+                                </div>
+                            </div>
+
+ 
+      
+    

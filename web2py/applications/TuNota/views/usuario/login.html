@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="{{=T.accepted_language or 'en'}}">
+<!--<![endif]-->
+
+<head>
+
+    <!-- www.phpied.com/conditional-comments-block-downloads/ -->
+    <!-- Always force latest IE rendering engine
+         (even in intranet) & Chrome Frame
+         Remove this if you use the .htaccess -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge{{=not request.is_local and ',chrome=1' or ''}}">
+    <!--  Mobile Viewport Fix
+          j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
+          device-width: Occupy full width of the screen in its current orientation
+          initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+          usuario-scalable = yes allows the usuario to zoom in -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="utf-8">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TuNota</title>
+
+
+    <!-- Bootstrap core CSS-->
+    <link href="{{=URL('static','vendor/login/css/bootstrap.min.css')}}" rel="stylesheet">
+    <!-- Custom fonts for this template-->
+    <link href="{{=URL('static','vendor/login/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template-->
+    <link rel="stylesheet" href="{{=URL('static','vendor/layout_ela/css/helper.css')}}" />
+    <link rel="stylesheet" href="{{=URL('static','vendor/layout_ela/css/style.css')}}" />
+    <link rel="stylesheet" href="{{=URL('static','vendor/layout_ela/mi_estilo.css')}}" />
+    <link rel="stylesheet" href="{{=URL('static','notas/css/buttons.css')}}">
+
+    <!-- include stylesheets quite 2 -->
+
+    <link rel="stylesheet" href="{{=URL('static','css/web2py-bootstrap4.css')}}" />
+    <link rel="shortcut icon" href="{{=URL('static','images/favicon3.png')}}" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{{=URL('static','images/favicon3.png')}}">
+    <!-- All JavaScript at the bottom, except for Modernizr which enables
+         HTML5 elements & feature detects -->
+    <script src="{{=URL('static','js/modernizr-2.8.3.min.js')}}"></script>
+
+
+    <!-- MIO -->
+    <style>
+        body {
+            background-color: transparent;
+        }
+        
+        .login-caja {
+            background-color: transparent !important;
+        }
+        
+        form>p {
+            color: #455a64 !important;
+        }
+    </style>
+
+    <!-- Favicons -->
+    {{include 'web2py_ajax.html'}}
+    <!-- this includes jquery.js, calendar.js/.css and web2py.js -->
+    {{block head}}{{end}}
+
+</head>
+
+<body>
+    <div class="w2p_flash alert alert-dismissable">{{=response.flash or ''}}</div>
+
+
+    <div class="login-caja">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="login-content card">
+                        <div class="login-form">
+                            <div class="contenedor-logo">
+                                {{=IMG(_src=URL('static','notas1/images/icon/logop4.png'))}}
+                            </div>
+                            </br>
+                            {{=form.custom.begin}}
+                            <p> Nombre de usuario:</p>
+
+                            <div class="form-group">{{=form.custom.widget.username}}</div>
+                            <p> Contraseña:</p>
+
+                            <div class="form-group">{{=form.custom.widget.password}}</div>
+
+                            <div class="center submit">{{=form.custom.submit}}</div>
+                            </br>
+                            <div class="center submit"> <a href="{{=URL('default','index')}}" class="btn btn-info">Inicio</a></div>
+
+                            {{=form.custom.end}}
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="{{=URL('static','vendor/login/js/jquery.min.js')}}"></script>
+    <script src="{{=URL('static','vendor/login/js/bootstrap.bundle.min.js')}}"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="{{=URL('static','vendor/login/js/jquery.easing.min.js')}}"></script>
+
+    <!--BACKSTRETCH-->
+    <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
+    <script type="text/javascript" src="{{=URL('static','vendor/login/js/jquery.backstretch.min.js')}}"></script>
+    <script>
+        $.backstretch("{{=URL('static','vendor/login/images/2.jpg')}}", {
+            speed: 700
+        });
+    </script>
+
+</body>
+
+</html>

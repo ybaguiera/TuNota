@@ -1,0 +1,1667 @@
+TABLE auth_user
+auth_user.id,auth_user.first_name,auth_user.last_name,auth_user.email,auth_user.username,auth_user.password,auth_user.registration_key,auth_user.reset_password_key,auth_user.registration_id
+1,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+2,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+3,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+4,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+5,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+6,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+7,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+8,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+9,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+10,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+11,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+12,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+13,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+14,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+15,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+16,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+17,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+18,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+19,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+20,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+21,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+22,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+23,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+24,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+25,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+26,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+27,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+28,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+29,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+30,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+31,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+32,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+33,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+34,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+35,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+36,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+37,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+38,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+39,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+40,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+41,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+42,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+43,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+44,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+45,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+46,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+47,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+48,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+49,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+50,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+51,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+52,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+53,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+54,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+55,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+56,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+57,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+58,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+59,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+60,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+61,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+62,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+63,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+64,Administrador,Administrador,admin@admin.admin,admin,"pbkdf2(1000,20,sha512)$ba427943443eeb01$7b353bbfe4bd2552b49a30c5a60f487220d1a124",,,
+
+
+TABLE auth_group
+auth_group.id,auth_group.role,auth_group.description
+1,Administrador,Es el super administrador
+2,Responsable,Son los usuarios responsanbles de las areas
+3,Administrador,Es el super administrador
+4,Responsable,Son los usuarios responsanbles de las areas
+5,Administrador,Es el super administrador
+6,Responsable,Son los usuarios responsanbles de las areas
+7,Administrador,Es el super administrador
+8,Responsable,Son los usuarios responsanbles de las areas
+9,Administrador,Es el super administrador
+10,Responsable,Son los usuarios responsanbles de las areas
+11,Administrador,Es el super administrador
+12,Responsable,Son los usuarios responsanbles de las areas
+13,Administrador,Es el super administrador
+14,Responsable,Son los usuarios responsanbles de las areas
+15,Administrador,Es el super administrador
+16,Responsable,Son los usuarios responsanbles de las areas
+17,Administrador,Es el super administrador
+18,Responsable,Son los usuarios responsanbles de las areas
+19,Administrador,Es el super administrador
+20,Responsable,Son los usuarios responsanbles de las areas
+21,Administrador,Es el super administrador
+22,Responsable,Son los usuarios responsanbles de las areas
+23,Administrador,Es el super administrador
+24,Responsable,Son los usuarios responsanbles de las areas
+25,Administrador,Es el super administrador
+26,Responsable,Son los usuarios responsanbles de las areas
+27,Administrador,Es el super administrador
+28,Responsable,Son los usuarios responsanbles de las areas
+29,Administrador,Es el super administrador
+30,Responsable,Son los usuarios responsanbles de las areas
+31,Administrador,Es el super administrador
+32,Responsable,Son los usuarios responsanbles de las areas
+33,Administrador,Es el super administrador
+34,Responsable,Son los usuarios responsanbles de las areas
+35,Administrador,Es el super administrador
+36,Responsable,Son los usuarios responsanbles de las areas
+37,Administrador,Es el super administrador
+38,Responsable,Son los usuarios responsanbles de las areas
+39,Administrador,Es el super administrador
+40,Responsable,Son los usuarios responsanbles de las areas
+41,Administrador,Es el super administrador
+42,Responsable,Son los usuarios responsanbles de las areas
+43,Administrador,Es el super administrador
+44,Responsable,Son los usuarios responsanbles de las areas
+45,Administrador,Es el super administrador
+46,Responsable,Son los usuarios responsanbles de las areas
+47,Administrador,Es el super administrador
+48,Responsable,Son los usuarios responsanbles de las areas
+49,Administrador,Es el super administrador
+50,Responsable,Son los usuarios responsanbles de las areas
+51,Administrador,Es el super administrador
+52,Responsable,Son los usuarios responsanbles de las areas
+53,Administrador,Es el super administrador
+54,Responsable,Son los usuarios responsanbles de las areas
+55,Administrador,Es el super administrador
+56,Responsable,Son los usuarios responsanbles de las areas
+57,Administrador,Es el super administrador
+58,Responsable,Son los usuarios responsanbles de las areas
+59,Administrador,Es el super administrador
+60,Responsable,Son los usuarios responsanbles de las areas
+61,Administrador,Es el super administrador
+62,Responsable,Son los usuarios responsanbles de las areas
+63,Administrador,Es el super administrador
+64,Responsable,Son los usuarios responsanbles de las areas
+65,Administrador,Es el super administrador
+66,Responsable,Son los usuarios responsanbles de las areas
+67,Administrador,Es el super administrador
+68,Responsable,Son los usuarios responsanbles de las areas
+69,Administrador,Es el super administrador
+70,Responsable,Son los usuarios responsanbles de las areas
+71,Administrador,Es el super administrador
+72,Responsable,Son los usuarios responsanbles de las areas
+73,Administrador,Es el super administrador
+74,Responsable,Son los usuarios responsanbles de las areas
+75,Administrador,Es el super administrador
+76,Responsable,Son los usuarios responsanbles de las areas
+77,Administrador,Es el super administrador
+78,Responsable,Son los usuarios responsanbles de las areas
+79,Administrador,Es el super administrador
+80,Responsable,Son los usuarios responsanbles de las areas
+81,Administrador,Es el super administrador
+82,Responsable,Son los usuarios responsanbles de las areas
+83,Administrador,Es el super administrador
+84,Responsable,Son los usuarios responsanbles de las areas
+85,Administrador,Es el super administrador
+86,Responsable,Son los usuarios responsanbles de las areas
+87,Administrador,Es el super administrador
+88,Responsable,Son los usuarios responsanbles de las areas
+89,Administrador,Es el super administrador
+90,Responsable,Son los usuarios responsanbles de las areas
+91,Administrador,Es el super administrador
+92,Responsable,Son los usuarios responsanbles de las areas
+93,Administrador,Es el super administrador
+94,Responsable,Son los usuarios responsanbles de las areas
+95,Administrador,Es el super administrador
+96,Responsable,Son los usuarios responsanbles de las areas
+97,Administrador,Es el super administrador
+98,Responsable,Son los usuarios responsanbles de las areas
+99,Administrador,Es el super administrador
+100,Responsable,Son los usuarios responsanbles de las areas
+101,Administrador,Es el super administrador
+102,Responsable,Son los usuarios responsanbles de las areas
+103,Administrador,Es el super administrador
+104,Responsable,Son los usuarios responsanbles de las areas
+105,Administrador,Es el super administrador
+106,Responsable,Son los usuarios responsanbles de las areas
+107,Administrador,Es el super administrador
+108,Responsable,Son los usuarios responsanbles de las areas
+109,Administrador,Es el super administrador
+110,Responsable,Son los usuarios responsanbles de las areas
+111,Administrador,Es el super administrador
+112,Responsable,Son los usuarios responsanbles de las areas
+113,Administrador,Es el super administrador
+114,Responsable,Son los usuarios responsanbles de las areas
+115,Administrador,Es el super administrador
+116,Responsable,Son los usuarios responsanbles de las areas
+117,Administrador,Es el super administrador
+118,Responsable,Son los usuarios responsanbles de las areas
+119,Administrador,Es el super administrador
+120,Responsable,Son los usuarios responsanbles de las areas
+121,Administrador,Es el super administrador
+122,Responsable,Son los usuarios responsanbles de las areas
+123,Administrador,Es el super administrador
+124,Responsable,Son los usuarios responsanbles de las areas
+125,Administrador,Es el super administrador
+126,Responsable,Son los usuarios responsanbles de las areas
+127,Administrador,Es el super administrador
+128,Responsable,Son los usuarios responsanbles de las areas
+
+
+TABLE auth_membership
+auth_membership.id,auth_membership.user_id,auth_membership.group_id,auth_membership.grupo_seleccion
+1,1,1,<NULL>
+2,2,3,<NULL>
+3,3,5,<NULL>
+4,4,7,<NULL>
+5,5,9,<NULL>
+6,6,11,<NULL>
+7,7,13,<NULL>
+8,8,15,<NULL>
+9,9,17,<NULL>
+10,10,19,<NULL>
+11,11,21,<NULL>
+12,12,23,<NULL>
+13,13,25,<NULL>
+14,14,27,<NULL>
+15,15,29,<NULL>
+16,16,31,<NULL>
+17,17,33,<NULL>
+18,18,35,<NULL>
+19,19,37,<NULL>
+20,20,39,<NULL>
+21,21,41,<NULL>
+22,22,43,<NULL>
+23,23,45,<NULL>
+24,24,47,<NULL>
+25,25,49,<NULL>
+26,26,51,<NULL>
+27,27,53,<NULL>
+28,28,55,<NULL>
+29,29,57,<NULL>
+30,30,59,<NULL>
+31,31,61,<NULL>
+32,32,63,<NULL>
+33,33,65,<NULL>
+34,34,67,<NULL>
+35,35,69,<NULL>
+36,36,71,<NULL>
+37,37,73,<NULL>
+38,38,75,<NULL>
+39,39,77,<NULL>
+40,40,79,<NULL>
+41,41,81,<NULL>
+42,42,83,<NULL>
+43,43,85,<NULL>
+44,44,87,<NULL>
+45,45,89,<NULL>
+46,46,91,<NULL>
+47,47,93,<NULL>
+48,48,95,<NULL>
+49,49,97,<NULL>
+50,50,99,<NULL>
+51,51,101,<NULL>
+52,52,103,<NULL>
+53,53,105,<NULL>
+54,54,107,<NULL>
+55,55,109,<NULL>
+56,56,111,<NULL>
+57,57,113,<NULL>
+58,58,115,<NULL>
+59,59,117,<NULL>
+60,60,119,<NULL>
+61,61,121,<NULL>
+62,62,123,<NULL>
+63,63,125,<NULL>
+64,64,127,<NULL>
+
+
+TABLE auth_permission
+
+
+TABLE auth_event
+auth_event.id,auth_event.time_stamp,auth_event.client_ip,auth_event.user_id,auth_event.origin,auth_event.description
+1,2018-11-12 10:29:35,127.0.0.1,1,auth,User 1 Logged-in
+2,2018-11-12 10:29:35,127.0.0.1,2,auth,User 1 Logged-in
+3,2018-11-12 10:29:35,127.0.0.1,3,auth,User 1 Logged-in
+4,2018-11-12 10:29:35,127.0.0.1,4,auth,User 1 Logged-in
+5,2018-11-12 10:29:35,127.0.0.1,5,auth,User 1 Logged-in
+6,2018-11-12 10:29:35,127.0.0.1,6,auth,User 1 Logged-in
+7,2018-11-12 10:29:35,127.0.0.1,7,auth,User 1 Logged-in
+8,2018-11-12 10:29:35,127.0.0.1,8,auth,User 1 Logged-in
+9,2018-11-12 10:29:35,127.0.0.1,9,auth,User 1 Logged-in
+10,2018-11-12 10:29:35,127.0.0.1,10,auth,User 1 Logged-in
+11,2018-11-12 10:29:35,127.0.0.1,11,auth,User 1 Logged-in
+12,2018-11-12 10:29:35,127.0.0.1,12,auth,User 1 Logged-in
+13,2018-11-12 10:29:35,127.0.0.1,13,auth,User 1 Logged-in
+14,2018-11-12 10:29:35,127.0.0.1,14,auth,User 1 Logged-in
+15,2018-11-12 10:29:35,127.0.0.1,15,auth,User 1 Logged-in
+16,2018-11-12 10:29:35,127.0.0.1,16,auth,User 1 Logged-in
+17,2018-11-12 10:29:35,127.0.0.1,17,auth,User 1 Logged-in
+18,2018-11-12 10:29:35,127.0.0.1,18,auth,User 1 Logged-in
+19,2018-11-12 10:29:35,127.0.0.1,19,auth,User 1 Logged-in
+20,2018-11-12 10:29:35,127.0.0.1,20,auth,User 1 Logged-in
+21,2018-11-12 10:29:35,127.0.0.1,21,auth,User 1 Logged-in
+22,2018-11-12 10:29:35,127.0.0.1,22,auth,User 1 Logged-in
+23,2018-11-12 10:29:35,127.0.0.1,23,auth,User 1 Logged-in
+24,2018-11-12 10:29:35,127.0.0.1,24,auth,User 1 Logged-in
+25,2018-11-12 10:29:35,127.0.0.1,25,auth,User 1 Logged-in
+26,2018-11-12 10:29:35,127.0.0.1,26,auth,User 1 Logged-in
+27,2018-11-12 10:29:35,127.0.0.1,27,auth,User 1 Logged-in
+28,2018-11-12 10:29:35,127.0.0.1,28,auth,User 1 Logged-in
+29,2018-11-12 10:29:35,127.0.0.1,29,auth,User 1 Logged-in
+30,2018-11-12 10:29:35,127.0.0.1,30,auth,User 1 Logged-in
+31,2018-11-12 10:29:35,127.0.0.1,31,auth,User 1 Logged-in
+32,2018-11-12 10:29:35,127.0.0.1,32,auth,User 1 Logged-in
+33,2018-11-12 10:29:35,127.0.0.1,33,auth,User 1 Logged-in
+34,2018-11-12 10:29:35,127.0.0.1,34,auth,User 1 Logged-in
+35,2018-11-12 10:29:35,127.0.0.1,35,auth,User 1 Logged-in
+36,2018-11-12 10:29:35,127.0.0.1,36,auth,User 1 Logged-in
+37,2018-11-12 10:29:35,127.0.0.1,37,auth,User 1 Logged-in
+38,2018-11-12 10:29:35,127.0.0.1,38,auth,User 1 Logged-in
+39,2018-11-12 10:29:35,127.0.0.1,39,auth,User 1 Logged-in
+40,2018-11-12 10:29:35,127.0.0.1,40,auth,User 1 Logged-in
+41,2018-11-12 10:29:35,127.0.0.1,41,auth,User 1 Logged-in
+42,2018-11-12 10:29:35,127.0.0.1,42,auth,User 1 Logged-in
+43,2018-11-12 10:29:35,127.0.0.1,43,auth,User 1 Logged-in
+44,2018-11-12 10:29:35,127.0.0.1,44,auth,User 1 Logged-in
+45,2018-11-12 10:29:35,127.0.0.1,45,auth,User 1 Logged-in
+46,2018-11-12 10:29:35,127.0.0.1,46,auth,User 1 Logged-in
+47,2018-11-12 10:29:35,127.0.0.1,47,auth,User 1 Logged-in
+48,2018-11-12 10:29:35,127.0.0.1,48,auth,User 1 Logged-in
+49,2018-11-12 10:29:35,127.0.0.1,49,auth,User 1 Logged-in
+50,2018-11-12 10:29:35,127.0.0.1,50,auth,User 1 Logged-in
+51,2018-11-12 10:29:35,127.0.0.1,51,auth,User 1 Logged-in
+52,2018-11-12 10:29:35,127.0.0.1,52,auth,User 1 Logged-in
+53,2018-11-12 10:29:35,127.0.0.1,53,auth,User 1 Logged-in
+54,2018-11-12 10:29:35,127.0.0.1,54,auth,User 1 Logged-in
+55,2018-11-12 10:29:35,127.0.0.1,55,auth,User 1 Logged-in
+56,2018-11-12 10:29:35,127.0.0.1,56,auth,User 1 Logged-in
+57,2018-11-12 10:29:35,127.0.0.1,57,auth,User 1 Logged-in
+58,2018-11-12 10:29:35,127.0.0.1,58,auth,User 1 Logged-in
+59,2018-11-12 10:29:35,127.0.0.1,59,auth,User 1 Logged-in
+60,2018-11-12 10:29:35,127.0.0.1,60,auth,User 1 Logged-in
+61,2018-11-12 10:29:35,127.0.0.1,61,auth,User 1 Logged-in
+62,2018-11-12 10:29:35,127.0.0.1,62,auth,User 1 Logged-in
+63,2018-11-12 10:29:35,127.0.0.1,63,auth,User 1 Logged-in
+64,2018-11-12 10:29:35,127.0.0.1,64,auth,User 1 Logged-in
+
+
+TABLE auth_cas
+
+
+TABLE responsable
+responsable.nombre
+DANAE HECTOR PAZ
+OSVALDO DIAZ VALDES
+
+
+TABLE area
+area.nombre,area.nombre_responsable
+2019-012 - Aula  1,DANAE HECTOR PAZ
+2019-019 - Aula  3,DANAE HECTOR PAZ
+2019-105 - Almacén Central,OSVALDO DIAZ VALDES
+2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,DANAE HECTOR PAZ
+
+
+TABLE medio_basico
+medio_basico.codigo,medio_basico.descripcion,medio_basico.nombre_area
+50308,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+50309,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+50310,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+50311,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+50312,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+50313,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+50314,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+50315,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+50316,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+64810,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+64811,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+64812,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+64813,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+64814,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+64815,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+64816,MESA PUPITRE,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+71072,TELEVISOR HIBRIDO DE 32´´ LCD,2019-012 - Aula  1
+71074,TELEVISOR HIBRIDO DE 32´´ LCD,2019-019 - Aula  3
+I-00254        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",2019-019 - Aula  3
+I-00255        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",2019-012 - Aula  1
+I-0044615      ,VENTILADOR VINCE DE PARED,2019-105 - Almacén Central
+I-0055522      ,Ventilador de Mesa,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-0061536      ,VENTILADOR DE MESA,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-0061537      ,VENTILADOR DE MESA,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-00901        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-105 - Almacén Central
+I-00902        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-105 - Almacén Central
+I-01073        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01081        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01098        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01117        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01118        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01119        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01120        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01124        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01126        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01128        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01129        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01130        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01131        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01146        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01147        ,Sillas Pasticas y Metalicas grandes P/ Buro.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01283        ,Buro de 1000 en Melamina  pequeño,2019-019 - Aula  3
+I-01285        ,Buro de 1000 en Melamina  pequeño,2019-012 - Aula  1
+I-01293        ,Buro de 1000 en Melamina  pequeño,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01298        ,Buro de 1000 en Melamina  pequeño,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01360        ,Pizarra Acrilica,2019-019 - Aula  3
+I-01362        ,Pizarra Acrilica,2019-012 - Aula  1
+I-01385        ,Sillas 950x400x430 mm (Juego de Comedor),2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01405        ,Sillas 950x400x430 mm (Juego de Comedor),2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01439        ,Soporte de TV 650 x 420 x 240 mm,2019-019 - Aula  3
+I-01440        ,Soporte de TV 650 x 420 x 240 mm,2019-019 - Aula  3
+I-01443        ,Soporte de TV 650 x 420 x 240 mm,2019-012 - Aula  1
+I-01444        ,Soporte de TV 650 x 420 x 240 mm,2019-012 - Aula  1
+I-01682        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01803        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01806        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01811        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01816        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01820        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01821        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01827        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01828        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01829        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01830        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01832        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-01899        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01900        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01901        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01902        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01903        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01904        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01905        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01906        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01907        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01908        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01909        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01910        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01911        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01912        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01913        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01914        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01915        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01916        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01917        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01918        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01919        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01920        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01921        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01922        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01923        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01924        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01925        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01926        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01927        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01928        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01929        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01930        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-01963        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01964        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01965        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01966        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01967        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01968        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01969        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01970        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01971        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01972        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01973        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01974        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01975        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01976        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01977        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01978        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01979        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01980        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01981        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01982        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01983        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-01984        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-012 - Aula  1
+I-02413        ,Sillas Plastica  de tubo redondo C/fondo int.,2019-019 - Aula  3
+I-02980        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02981        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02982        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02983        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02984        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02985        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02986        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02987        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02988        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02989        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02990        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02991        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02992        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02993        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02994        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-02995        ,Mesa Pupitre Escolar,2019-019 - Aula  3
+I-03012        ,Mesa Pupitre Escolar,2019-012 - Aula  1
+I-03013        ,Mesa Pupitre Escolar,2019-012 - Aula  1
+I-03014        ,Mesa Pupitre Escolar,2019-012 - Aula  1
+I-03015        ,Mesa Pupitre Escolar,2019-012 - Aula  1
+I-03016        ,Mesa Pupitre Escolar,2019-012 - Aula  1
+I-03017        ,Mesa Pupitre Escolar,2019-012 - Aula  1
+I-03018        ,Mesa Pupitre Escolar,2019-012 - Aula  1
+I-03019        ,Mesa Pupitre Escolar,2019-012 - Aula  1
+I-03020        ,Mesa Pupitre Escolar,2019-012 - Aula  1
+I-03021        ,Mesa Pupitre Escolar,2019-012 - Aula  1
+I-03022        ,Mesa Pupitre Escolar,2019-012 - Aula  1
+I-03091        ,"TV Atec-Haier  ""29""",2019-012 - Aula  1
+I-03104        ,"TV Atec-Haier  ""29""",2019-019 - Aula  3
+I-03105        ,"TV Atec-Haier  ""29""",2019-019 - Aula  3
+I-03108        ,"TV Atec-Haier  ""29""",2019-012 - Aula  1
+I-03554        ,Parle de Madera,2019-105 - Almacén Central
+I-03555        ,Parle de Maderal,2019-105 - Almacén Central
+I-03764        ,Taquilla 2 Puertas  Acero,2019-105 - Almacén Central
+I-03787        ,Mesa de Computacion,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+I-08178        ,Parle de Madera,2019-105 - Almacén Central
+I-08179        ,Parle de Madera,2019-105 - Almacén Central
+I-08180        ,Parle de Madera,2019-105 - Almacén Central
+I-08181        ,Parle de Madera,2019-105 - Almacén Central
+I-08182        ,Parle de Madera,2019-105 - Almacén Central
+I-08183        ,Parle de Madera,2019-105 - Almacén Central
+I-095191       ,Monitor  LG 15,2019-019 - Aula  3
+I-095193       ,Monitor  LG 15,2019-012 - Aula  1
+I-901503       ,Ventilador Pedestal Vince,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+P-163444       ,MESA DE COMPUTACION,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+P-168965       ,MESA DE COMPUTACION,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS
+
+
+TABLE revision
+
+
+TABLE chequeo
+
+
+TABLE actualizacion
+actualizacion.id,actualizacion.fecha
+1,2018-11-12 10:29:28
+2,2018-11-12 10:32:02
+3,2018-11-12 10:32:48
+4,2018-11-12 10:34:11
+5,2018-11-12 10:49:13
+6,2018-11-12 10:51:33
+7,2018-11-12 10:53:28
+8,2018-11-12 10:53:45
+9,2018-11-12 10:55:13
+10,2018-11-12 11:07:08
+11,2018-11-12 11:07:41
+
+
+TABLE act_responsable
+
+
+TABLE act_area
+act_area.id,act_area.nombre,act_area.tipo,act_area.nombre_responsable,act_area.id_actualizacion
+1,2019-012 - Aula  1,Nuevo,DANAE HECTOR PAZ,1
+2,2019-019 - Aula  3,Nuevo,DANAE HECTOR PAZ,1
+3,2019-012 - Aula  1,Nuevo,DANAE HECTOR PAZ,2
+4,2019-019 - Aula  3,Nuevo,DANAE HECTOR PAZ,2
+5,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,Eliminado,DANAE HECTOR PAZ,3
+6,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,Nuevo,DANAE HECTOR PAZ,4
+7,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,Nuevo,DANAE HECTOR PAZ,5
+8,2019-012 - Aula  1,Nuevo,DANAE HECTOR PAZ,5
+9,2019-019 - Aula  3,Nuevo,DANAE HECTOR PAZ,5
+10,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,Nuevo,DANAE HECTOR PAZ,6
+11,2019-012 - Aula  1,Nuevo,DANAE HECTOR PAZ,6
+12,2019-019 - Aula  3,Nuevo,DANAE HECTOR PAZ,6
+13,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,Nuevo,DANAE HECTOR PAZ,9
+14,2019-012 - Aula  1,Nuevo,DANAE HECTOR PAZ,9
+15,2019-019 - Aula  3,Nuevo,DANAE HECTOR PAZ,9
+16,2019-012 - Aula  1,Nuevo,DANAE HECTOR PAZ,10
+17,2019-019 - Aula  3,Nuevo,DANAE HECTOR PAZ,10
+18,2019-105 - Almacén Central,Cambio,OSVALDO DIAZ VALDES,10
+19,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,Nuevo,DANAE HECTOR PAZ,11
+20,2019-012 - Aula  1,Nuevo,DANAE HECTOR PAZ,11
+21,2019-019 - Aula  3,Nuevo,DANAE HECTOR PAZ,11
+
+
+TABLE cambio_area
+cambio_area.id,cambio_area.responsable_ahora,cambio_area.id_act_area
+1,DANAE HECTOR PAZ,18
+
+
+TABLE act_medio
+act_medio.id,act_medio.codigo,act_medio.descripcion,act_medio.tipo,act_medio.nombre_area,act_medio.id_actualizacion
+1,71072,TELEVISOR HIBRIDO DE 32´´ LCD,Nuevo,2019-012 - Aula  1,1
+2,I-00255        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",Nuevo,2019-012 - Aula  1,1
+3,I-01285        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-012 - Aula  1,1
+4,I-01362        ,Pizarra Acrilica,Nuevo,2019-012 - Aula  1,1
+5,I-01443        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-012 - Aula  1,1
+6,I-01444        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-012 - Aula  1,1
+7,I-01682        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+8,I-01963        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+9,I-01964        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+10,I-01965        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+11,I-01966        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+12,I-01967        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+13,I-01968        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+14,I-01969        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+15,I-01970        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+16,I-01971        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+17,I-01972        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+18,I-01973        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+19,I-01974        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+20,I-01975        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+21,I-01976        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+22,I-01977        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+23,I-01978        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+24,I-01979        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+25,I-01980        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+26,I-01981        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+27,I-01982        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+28,I-01983        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+29,I-01984        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,1
+30,I-03012        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,1
+31,I-03013        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,1
+32,I-03014        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,1
+33,I-03015        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,1
+34,I-03016        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,1
+35,I-03017        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,1
+36,I-03018        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,1
+37,I-03019        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,1
+38,I-03020        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,1
+39,I-03021        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,1
+40,I-03022        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,1
+41,I-03091        ,"TV Atec-Haier  ""29""",Nuevo,2019-012 - Aula  1,1
+42,I-03108        ,"TV Atec-Haier  ""29""",Nuevo,2019-012 - Aula  1,1
+43,I-095193       ,Monitor  LG 15,Nuevo,2019-012 - Aula  1,1
+44,71074,TELEVISOR HIBRIDO DE 32´´ LCD,Nuevo,2019-019 - Aula  3,1
+45,I-00254        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",Nuevo,2019-019 - Aula  3,1
+46,I-01283        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-019 - Aula  3,1
+47,I-01360        ,Pizarra Acrilica,Nuevo,2019-019 - Aula  3,1
+48,I-01439        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-019 - Aula  3,1
+49,I-01440        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-019 - Aula  3,1
+50,I-01899        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+51,I-01900        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+52,I-01901        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+53,I-01902        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+54,I-01903        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+55,I-01904        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+56,I-01905        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+57,I-01906        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+58,I-01907        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+59,I-01908        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+60,I-01909        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+61,I-01910        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+62,I-01911        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+63,I-01912        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+64,I-01913        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+65,I-01914        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+66,I-01915        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+67,I-01916        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+68,I-01917        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+69,I-01918        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+70,I-01919        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+71,I-01920        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+72,I-01921        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+73,I-01922        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+74,I-01923        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+75,I-01924        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+76,I-01925        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+77,I-01926        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+78,I-01927        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+79,I-01928        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+80,I-01929        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+81,I-01930        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+82,I-02413        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,1
+83,I-02980        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+84,I-02981        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+85,I-02982        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+86,I-02983        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+87,I-02984        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+88,I-02985        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+89,I-02986        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+90,I-02987        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+91,I-02988        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+92,I-02989        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+93,I-02990        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+94,I-02991        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+95,I-02992        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+96,I-02993        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+97,I-02994        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+98,I-02995        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,1
+99,I-03104        ,"TV Atec-Haier  ""29""",Nuevo,2019-019 - Aula  3,1
+100,I-03105        ,"TV Atec-Haier  ""29""",Nuevo,2019-019 - Aula  3,1
+101,I-095191       ,Monitor  LG 15,Nuevo,2019-019 - Aula  3,1
+102,71072,TELEVISOR HIBRIDO DE 32´´ LCD,Nuevo,2019-012 - Aula  1,2
+103,I-00255        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",Nuevo,2019-012 - Aula  1,2
+104,I-01285        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-012 - Aula  1,2
+105,I-01362        ,Pizarra Acrilica,Nuevo,2019-012 - Aula  1,2
+106,I-01443        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-012 - Aula  1,2
+107,I-01444        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-012 - Aula  1,2
+108,I-01682        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+109,I-01963        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+110,I-01964        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+111,I-01965        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+112,I-01966        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+113,I-01967        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+114,I-01968        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+115,I-01969        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+116,I-01970        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+117,I-01971        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+118,I-01972        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+119,I-01973        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+120,I-01974        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+121,I-01975        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+122,I-01976        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+123,I-01977        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+124,I-01978        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+125,I-01979        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+126,I-01980        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+127,I-01981        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+128,I-01982        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+129,I-01983        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+130,I-01984        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,2
+131,I-03012        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,2
+132,I-03013        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,2
+133,I-03014        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,2
+134,I-03015        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,2
+135,I-03016        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,2
+136,I-03017        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,2
+137,I-03018        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,2
+138,I-03019        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,2
+139,I-03020        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,2
+140,I-03021        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,2
+141,I-03022        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,2
+142,I-03091        ,"TV Atec-Haier  ""29""",Nuevo,2019-012 - Aula  1,2
+143,I-03108        ,"TV Atec-Haier  ""29""",Nuevo,2019-012 - Aula  1,2
+144,I-095193       ,Monitor  LG 15,Nuevo,2019-012 - Aula  1,2
+145,71074,TELEVISOR HIBRIDO DE 32´´ LCD,Nuevo,2019-019 - Aula  3,2
+146,I-00254        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",Nuevo,2019-019 - Aula  3,2
+147,I-01283        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-019 - Aula  3,2
+148,I-01360        ,Pizarra Acrilica,Nuevo,2019-019 - Aula  3,2
+149,I-01439        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-019 - Aula  3,2
+150,I-01440        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-019 - Aula  3,2
+151,I-01899        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+152,I-01900        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+153,I-01901        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+154,I-01902        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+155,I-01903        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+156,I-01904        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+157,I-01905        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+158,I-01906        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+159,I-01907        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+160,I-01908        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+161,I-01909        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+162,I-01910        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+163,I-01911        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+164,I-01912        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+165,I-01913        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+166,I-01914        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+167,I-01915        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+168,I-01916        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+169,I-01917        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+170,I-01918        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+171,I-01919        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+172,I-01920        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+173,I-01921        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+174,I-01922        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+175,I-01923        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+176,I-01924        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+177,I-01925        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+178,I-01926        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+179,I-01927        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+180,I-01928        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+181,I-01929        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+182,I-01930        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+183,I-02413        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,2
+184,I-02980        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+185,I-02981        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+186,I-02982        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+187,I-02983        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+188,I-02984        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+189,I-02985        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+190,I-02986        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+191,I-02987        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+192,I-02988        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+193,I-02989        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+194,I-02990        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+195,I-02991        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+196,I-02992        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+197,I-02993        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+198,I-02994        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+199,I-02995        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,2
+200,I-03104        ,"TV Atec-Haier  ""29""",Nuevo,2019-019 - Aula  3,2
+201,I-03105        ,"TV Atec-Haier  ""29""",Nuevo,2019-019 - Aula  3,2
+202,I-095191       ,Monitor  LG 15,Nuevo,2019-019 - Aula  3,2
+203,50308,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+204,50309,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+205,50310,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+206,50311,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+207,50312,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+208,50313,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+209,50314,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+210,50315,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+211,50316,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+212,64810,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+213,64811,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+214,64812,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+215,64813,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+216,64814,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+217,64815,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+218,64816,MESA PUPITRE,Cambio,2019-012 - Aula  1,4
+219,I-0055522      ,Ventilador de Mesa,Cambio,2019-012 - Aula  1,4
+220,I-0061536      ,VENTILADOR DE MESA,Cambio,2019-012 - Aula  1,4
+221,I-0061537      ,VENTILADOR DE MESA,Cambio,2019-012 - Aula  1,4
+222,I-01073        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+223,I-01081        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+224,I-01098        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+225,I-01117        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+226,I-01118        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+227,I-01119        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+228,I-01120        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+229,I-01124        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+230,I-01126        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+231,I-01128        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+232,I-01129        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+233,I-01130        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+234,I-01131        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+235,I-01146        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+236,I-01147        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Cambio,2019-012 - Aula  1,4
+237,I-01293        ,Buro de 1000 en Melamina  pequeño,Cambio,2019-012 - Aula  1,4
+238,I-01298        ,Buro de 1000 en Melamina  pequeño,Cambio,2019-012 - Aula  1,4
+239,I-01385        ,Sillas 950x400x430 mm (Juego de Comedor),Cambio,2019-012 - Aula  1,4
+240,I-01405        ,Sillas 950x400x430 mm (Juego de Comedor),Cambio,2019-012 - Aula  1,4
+241,I-01803        ,Sillas Plastica  de tubo redondo C/fondo int.,Cambio,2019-012 - Aula  1,4
+242,I-01806        ,Sillas Plastica  de tubo redondo C/fondo int.,Cambio,2019-012 - Aula  1,4
+243,I-01811        ,Sillas Plastica  de tubo redondo C/fondo int.,Cambio,2019-012 - Aula  1,4
+244,I-01816        ,Sillas Plastica  de tubo redondo C/fondo int.,Cambio,2019-012 - Aula  1,4
+245,I-01820        ,Sillas Plastica  de tubo redondo C/fondo int.,Cambio,2019-012 - Aula  1,4
+246,I-01821        ,Sillas Plastica  de tubo redondo C/fondo int.,Cambio,2019-012 - Aula  1,4
+247,I-01827        ,Sillas Plastica  de tubo redondo C/fondo int.,Cambio,2019-012 - Aula  1,4
+248,I-01828        ,Sillas Plastica  de tubo redondo C/fondo int.,Cambio,2019-012 - Aula  1,4
+249,I-01829        ,Sillas Plastica  de tubo redondo C/fondo int.,Cambio,2019-012 - Aula  1,4
+250,I-01830        ,Sillas Plastica  de tubo redondo C/fondo int.,Cambio,2019-012 - Aula  1,4
+251,I-01832        ,Sillas Plastica  de tubo redondo C/fondo int.,Cambio,2019-012 - Aula  1,4
+252,I-03787        ,Mesa de Computacion,Cambio,2019-012 - Aula  1,4
+253,I-901503       ,Ventilador Pedestal Vince,Cambio,2019-012 - Aula  1,4
+254,P-163444       ,MESA DE COMPUTACION,Cambio,2019-012 - Aula  1,4
+255,P-168965       ,MESA DE COMPUTACION,Cambio,2019-012 - Aula  1,4
+256,50308,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+257,50309,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+258,50310,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+259,50311,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+260,50312,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+261,50313,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+262,50314,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+263,50315,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+264,50316,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+265,64810,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+266,64811,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+267,64812,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+268,64813,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+269,64814,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+270,64815,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+271,64816,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+272,I-0055522      ,Ventilador de Mesa,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+273,I-0061536      ,VENTILADOR DE MESA,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+274,I-0061537      ,VENTILADOR DE MESA,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+275,I-01073        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+276,I-01081        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+277,I-01098        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+278,I-01117        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+279,I-01118        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+280,I-01119        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+281,I-01120        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+282,I-01124        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+283,I-01126        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+284,I-01128        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+285,I-01129        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+286,I-01130        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+287,I-01131        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+288,I-01146        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+289,I-01147        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+290,I-01293        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+291,I-01298        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+292,I-01385        ,Sillas 950x400x430 mm (Juego de Comedor),Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+293,I-01405        ,Sillas 950x400x430 mm (Juego de Comedor),Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+294,I-01803        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+295,I-01806        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+296,I-01811        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+297,I-01816        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+298,I-01820        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+299,I-01821        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+300,I-01827        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+301,I-01828        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+302,I-01829        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+303,I-01830        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+304,I-01832        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+305,I-03787        ,Mesa de Computacion,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+306,I-901503       ,Ventilador Pedestal Vince,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+307,P-163444       ,MESA DE COMPUTACION,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+308,P-168965       ,MESA DE COMPUTACION,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,5
+309,71072,TELEVISOR HIBRIDO DE 32´´ LCD,Nuevo,2019-012 - Aula  1,5
+310,I-00255        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",Nuevo,2019-012 - Aula  1,5
+311,I-01285        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-012 - Aula  1,5
+312,I-01362        ,Pizarra Acrilica,Nuevo,2019-012 - Aula  1,5
+313,I-01443        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-012 - Aula  1,5
+314,I-01444        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-012 - Aula  1,5
+315,I-01682        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+316,I-01963        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+317,I-01964        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+318,I-01965        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+319,I-01966        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+320,I-01967        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+321,I-01968        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+322,I-01969        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+323,I-01970        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+324,I-01971        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+325,I-01972        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+326,I-01973        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+327,I-01974        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+328,I-01975        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+329,I-01976        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+330,I-01977        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+331,I-01978        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+332,I-01979        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+333,I-01980        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+334,I-01981        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+335,I-01982        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+336,I-01983        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+337,I-01984        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,5
+338,I-03012        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,5
+339,I-03013        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,5
+340,I-03014        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,5
+341,I-03015        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,5
+342,I-03016        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,5
+343,I-03017        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,5
+344,I-03018        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,5
+345,I-03019        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,5
+346,I-03020        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,5
+347,I-03021        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,5
+348,I-03022        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,5
+349,I-03091        ,"TV Atec-Haier  ""29""",Nuevo,2019-012 - Aula  1,5
+350,I-03108        ,"TV Atec-Haier  ""29""",Nuevo,2019-012 - Aula  1,5
+351,I-095193       ,Monitor  LG 15,Nuevo,2019-012 - Aula  1,5
+352,71074,TELEVISOR HIBRIDO DE 32´´ LCD,Nuevo,2019-019 - Aula  3,5
+353,I-00254        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",Nuevo,2019-019 - Aula  3,5
+354,I-01283        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-019 - Aula  3,5
+355,I-01360        ,Pizarra Acrilica,Nuevo,2019-019 - Aula  3,5
+356,I-01439        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-019 - Aula  3,5
+357,I-01440        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-019 - Aula  3,5
+358,I-01899        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+359,I-01900        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+360,I-01901        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+361,I-01902        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+362,I-01903        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+363,I-01904        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+364,I-01905        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+365,I-01906        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+366,I-01907        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+367,I-01908        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+368,I-01909        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+369,I-01910        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+370,I-01911        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+371,I-01912        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+372,I-01913        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+373,I-01914        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+374,I-01915        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+375,I-01916        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+376,I-01917        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+377,I-01918        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+378,I-01919        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+379,I-01920        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+380,I-01921        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+381,I-01922        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+382,I-01923        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+383,I-01924        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+384,I-01925        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+385,I-01926        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+386,I-01927        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+387,I-01928        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+388,I-01929        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+389,I-01930        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+390,I-02413        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,5
+391,I-02980        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+392,I-02981        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+393,I-02982        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+394,I-02983        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+395,I-02984        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+396,I-02985        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+397,I-02986        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+398,I-02987        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+399,I-02988        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+400,I-02989        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+401,I-02990        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+402,I-02991        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+403,I-02992        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+404,I-02993        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+405,I-02994        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+406,I-02995        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,5
+407,I-03104        ,"TV Atec-Haier  ""29""",Nuevo,2019-019 - Aula  3,5
+408,I-03105        ,"TV Atec-Haier  ""29""",Nuevo,2019-019 - Aula  3,5
+409,I-095191       ,Monitor  LG 15,Nuevo,2019-019 - Aula  3,5
+410,50308,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+411,50309,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+412,50310,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+413,50311,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+414,50312,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+415,50313,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+416,50314,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+417,50315,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+418,50316,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+419,64810,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+420,64811,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+421,64812,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+422,64813,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+423,64814,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+424,64815,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+425,64816,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+426,I-0055522      ,Ventilador de Mesa,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+427,I-0061536      ,VENTILADOR DE MESA,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+428,I-0061537      ,VENTILADOR DE MESA,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+429,I-01073        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+430,I-01081        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+431,I-01098        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+432,I-01117        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+433,I-01118        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+434,I-01119        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+435,I-01120        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+436,I-01124        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+437,I-01126        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+438,I-01128        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+439,I-01129        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+440,I-01130        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+441,I-01131        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+442,I-01146        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+443,I-01147        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+444,I-01293        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+445,I-01298        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+446,I-01385        ,Sillas 950x400x430 mm (Juego de Comedor),Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+447,I-01405        ,Sillas 950x400x430 mm (Juego de Comedor),Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+448,I-01803        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+449,I-01806        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+450,I-01811        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+451,I-01816        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+452,I-01820        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+453,I-01821        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+454,I-01827        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+455,I-01828        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+456,I-01829        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+457,I-01830        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+458,I-01832        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+459,I-03787        ,Mesa de Computacion,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+460,I-901503       ,Ventilador Pedestal Vince,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+461,P-163444       ,MESA DE COMPUTACION,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+462,P-168965       ,MESA DE COMPUTACION,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,6
+463,71072,TELEVISOR HIBRIDO DE 32´´ LCD,Nuevo,2019-012 - Aula  1,6
+464,I-00255        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",Nuevo,2019-012 - Aula  1,6
+465,I-01285        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-012 - Aula  1,6
+466,I-01362        ,Pizarra Acrilica,Nuevo,2019-012 - Aula  1,6
+467,I-01443        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-012 - Aula  1,6
+468,I-01444        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-012 - Aula  1,6
+469,I-01682        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+470,I-01963        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+471,I-01964        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+472,I-01965        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+473,I-01966        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+474,I-01967        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+475,I-01968        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+476,I-01969        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+477,I-01970        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+478,I-01971        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+479,I-01972        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+480,I-01973        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+481,I-01974        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+482,I-01975        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+483,I-01976        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+484,I-01977        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+485,I-01978        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+486,I-01979        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+487,I-01980        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+488,I-01981        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+489,I-01982        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+490,I-01983        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+491,I-01984        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,6
+492,I-03012        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,6
+493,I-03013        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,6
+494,I-03014        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,6
+495,I-03015        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,6
+496,I-03016        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,6
+497,I-03017        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,6
+498,I-03018        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,6
+499,I-03019        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,6
+500,I-03020        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,6
+501,I-03021        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,6
+502,I-03022        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,6
+503,I-03091        ,"TV Atec-Haier  ""29""",Nuevo,2019-012 - Aula  1,6
+504,I-03108        ,"TV Atec-Haier  ""29""",Nuevo,2019-012 - Aula  1,6
+505,I-095193       ,Monitor  LG 15,Nuevo,2019-012 - Aula  1,6
+506,71074,TELEVISOR HIBRIDO DE 32´´ LCD,Nuevo,2019-019 - Aula  3,6
+507,I-00254        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",Nuevo,2019-019 - Aula  3,6
+508,I-01283        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-019 - Aula  3,6
+509,I-01360        ,Pizarra Acrilica,Nuevo,2019-019 - Aula  3,6
+510,I-01439        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-019 - Aula  3,6
+511,I-01440        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-019 - Aula  3,6
+512,I-01899        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+513,I-01900        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+514,I-01901        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+515,I-01902        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+516,I-01903        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+517,I-01904        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+518,I-01905        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+519,I-01906        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+520,I-01907        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+521,I-01908        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+522,I-01909        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+523,I-01910        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+524,I-01911        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+525,I-01912        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+526,I-01913        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+527,I-01914        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+528,I-01915        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+529,I-01916        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+530,I-01917        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+531,I-01918        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+532,I-01919        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+533,I-01920        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+534,I-01921        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+535,I-01922        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+536,I-01923        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+537,I-01924        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+538,I-01925        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+539,I-01926        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+540,I-01927        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+541,I-01928        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+542,I-01929        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+543,I-01930        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+544,I-02413        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,6
+545,I-02980        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+546,I-02981        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+547,I-02982        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+548,I-02983        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+549,I-02984        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+550,I-02985        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+551,I-02986        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+552,I-02987        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+553,I-02988        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+554,I-02989        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+555,I-02990        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+556,I-02991        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+557,I-02992        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+558,I-02993        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+559,I-02994        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+560,I-02995        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,6
+561,I-03104        ,"TV Atec-Haier  ""29""",Nuevo,2019-019 - Aula  3,6
+562,I-03105        ,"TV Atec-Haier  ""29""",Nuevo,2019-019 - Aula  3,6
+563,I-095191       ,Monitor  LG 15,Nuevo,2019-019 - Aula  3,6
+564,50308,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+565,50309,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+566,50310,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+567,50311,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+568,50312,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+569,50313,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+570,50314,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+571,50315,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+572,50316,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+573,64810,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+574,64811,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+575,64812,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+576,64813,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+577,64814,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+578,64815,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+579,64816,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+580,I-0055522      ,Ventilador de Mesa,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+581,I-0061536      ,VENTILADOR DE MESA,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+582,I-0061537      ,VENTILADOR DE MESA,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+583,I-01073        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+584,I-01081        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+585,I-01098        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+586,I-01117        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+587,I-01118        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+588,I-01119        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+589,I-01120        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+590,I-01124        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+591,I-01126        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+592,I-01128        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+593,I-01129        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+594,I-01130        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+595,I-01131        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+596,I-01146        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+597,I-01147        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+598,I-01293        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+599,I-01298        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+600,I-01385        ,Sillas 950x400x430 mm (Juego de Comedor),Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+601,I-01405        ,Sillas 950x400x430 mm (Juego de Comedor),Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+602,I-01803        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+603,I-01806        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+604,I-01811        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+605,I-01816        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+606,I-01820        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+607,I-01821        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+608,I-01827        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+609,I-01828        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+610,I-01829        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+611,I-01830        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+612,I-01832        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+613,I-03787        ,Mesa de Computacion,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+614,I-901503       ,Ventilador Pedestal Vince,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+615,P-163444       ,MESA DE COMPUTACION,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+616,P-168965       ,MESA DE COMPUTACION,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,9
+617,71072,TELEVISOR HIBRIDO DE 32´´ LCD,Nuevo,2019-012 - Aula  1,9
+618,I-00255        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",Nuevo,2019-012 - Aula  1,9
+619,I-01285        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-012 - Aula  1,9
+620,I-01362        ,Pizarra Acrilica,Nuevo,2019-012 - Aula  1,9
+621,I-01443        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-012 - Aula  1,9
+622,I-01444        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-012 - Aula  1,9
+623,I-01682        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+624,I-01963        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+625,I-01964        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+626,I-01965        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+627,I-01966        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+628,I-01967        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+629,I-01968        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+630,I-01969        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+631,I-01970        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+632,I-01971        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+633,I-01972        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+634,I-01973        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+635,I-01974        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+636,I-01975        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+637,I-01976        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+638,I-01977        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+639,I-01978        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+640,I-01979        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+641,I-01980        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+642,I-01981        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+643,I-01982        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+644,I-01983        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+645,I-01984        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,9
+646,I-03012        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,9
+647,I-03013        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,9
+648,I-03014        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,9
+649,I-03015        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,9
+650,I-03016        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,9
+651,I-03017        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,9
+652,I-03018        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,9
+653,I-03019        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,9
+654,I-03020        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,9
+655,I-03021        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,9
+656,I-03022        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,9
+657,I-03091        ,"TV Atec-Haier  ""29""",Nuevo,2019-012 - Aula  1,9
+658,I-03108        ,"TV Atec-Haier  ""29""",Nuevo,2019-012 - Aula  1,9
+659,I-095193       ,Monitor  LG 15,Nuevo,2019-012 - Aula  1,9
+660,71074,TELEVISOR HIBRIDO DE 32´´ LCD,Nuevo,2019-019 - Aula  3,9
+661,I-00254        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",Nuevo,2019-019 - Aula  3,9
+662,I-01283        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-019 - Aula  3,9
+663,I-01360        ,Pizarra Acrilica,Nuevo,2019-019 - Aula  3,9
+664,I-01439        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-019 - Aula  3,9
+665,I-01440        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-019 - Aula  3,9
+666,I-01899        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+667,I-01900        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+668,I-01901        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+669,I-01902        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+670,I-01903        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+671,I-01904        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+672,I-01905        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+673,I-01906        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+674,I-01907        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+675,I-01908        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+676,I-01909        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+677,I-01910        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+678,I-01911        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+679,I-01912        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+680,I-01913        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+681,I-01914        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+682,I-01915        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+683,I-01916        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+684,I-01917        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+685,I-01918        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+686,I-01919        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+687,I-01920        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+688,I-01921        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+689,I-01922        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+690,I-01923        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+691,I-01924        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+692,I-01925        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+693,I-01926        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+694,I-01927        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+695,I-01928        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+696,I-01929        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+697,I-01930        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+698,I-02413        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,9
+699,I-02980        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+700,I-02981        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+701,I-02982        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+702,I-02983        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+703,I-02984        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+704,I-02985        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+705,I-02986        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+706,I-02987        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+707,I-02988        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+708,I-02989        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+709,I-02990        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+710,I-02991        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+711,I-02992        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+712,I-02993        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+713,I-02994        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+714,I-02995        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,9
+715,I-03104        ,"TV Atec-Haier  ""29""",Nuevo,2019-019 - Aula  3,9
+716,I-03105        ,"TV Atec-Haier  ""29""",Nuevo,2019-019 - Aula  3,9
+717,I-095191       ,Monitor  LG 15,Nuevo,2019-019 - Aula  3,9
+718,50308,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+719,50309,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+720,50310,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+721,50311,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+722,50312,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+723,50313,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+724,50314,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+725,50315,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+726,50316,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+727,64810,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+728,64811,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+729,64812,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+730,64813,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+731,64814,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+732,64815,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+733,64816,MESA PUPITRE,Nuevo,2019-105 - Almacén Central,10
+734,I-0055522      ,Ventilador de Mesa,Nuevo,2019-105 - Almacén Central,10
+735,I-0061536      ,VENTILADOR DE MESA,Nuevo,2019-105 - Almacén Central,10
+736,I-0061537      ,VENTILADOR DE MESA,Nuevo,2019-105 - Almacén Central,10
+737,I-01073        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+738,I-01081        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+739,I-01098        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+740,I-01117        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+741,I-01118        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+742,I-01119        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+743,I-01120        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+744,I-01124        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+745,I-01126        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+746,I-01128        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+747,I-01129        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+748,I-01130        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+749,I-01131        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+750,I-01146        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+751,I-01147        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-105 - Almacén Central,10
+752,I-01293        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-105 - Almacén Central,10
+753,I-01298        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-105 - Almacén Central,10
+754,I-01385        ,Sillas 950x400x430 mm (Juego de Comedor),Nuevo,2019-105 - Almacén Central,10
+755,I-01405        ,Sillas 950x400x430 mm (Juego de Comedor),Nuevo,2019-105 - Almacén Central,10
+756,I-01803        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-105 - Almacén Central,10
+757,I-01806        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-105 - Almacén Central,10
+758,I-01811        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-105 - Almacén Central,10
+759,I-01816        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-105 - Almacén Central,10
+760,I-01820        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-105 - Almacén Central,10
+761,I-01821        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-105 - Almacén Central,10
+762,I-01827        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-105 - Almacén Central,10
+763,I-01828        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-105 - Almacén Central,10
+764,I-01829        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-105 - Almacén Central,10
+765,I-01830        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-105 - Almacén Central,10
+766,I-01832        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-105 - Almacén Central,10
+767,I-03787        ,Mesa de Computacion,Nuevo,2019-105 - Almacén Central,10
+768,I-901503       ,Ventilador Pedestal Vince,Nuevo,2019-105 - Almacén Central,10
+769,P-163444       ,MESA DE COMPUTACION,Nuevo,2019-105 - Almacén Central,10
+770,P-168965       ,MESA DE COMPUTACION,Nuevo,2019-105 - Almacén Central,10
+771,71072,TELEVISOR HIBRIDO DE 32´´ LCD,Nuevo,2019-012 - Aula  1,10
+772,I-00255        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",Nuevo,2019-012 - Aula  1,10
+773,I-01285        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-012 - Aula  1,10
+774,I-01362        ,Pizarra Acrilica,Nuevo,2019-012 - Aula  1,10
+775,I-01443        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-012 - Aula  1,10
+776,I-01444        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-012 - Aula  1,10
+777,I-01682        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+778,I-01963        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+779,I-01964        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+780,I-01965        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+781,I-01966        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+782,I-01967        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+783,I-01968        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+784,I-01969        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+785,I-01970        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+786,I-01971        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+787,I-01972        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+788,I-01973        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+789,I-01974        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+790,I-01975        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+791,I-01976        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+792,I-01977        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+793,I-01978        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+794,I-01979        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+795,I-01980        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+796,I-01981        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+797,I-01982        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+798,I-01983        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+799,I-01984        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,10
+800,I-03012        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,10
+801,I-03013        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,10
+802,I-03014        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,10
+803,I-03015        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,10
+804,I-03016        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,10
+805,I-03017        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,10
+806,I-03018        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,10
+807,I-03019        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,10
+808,I-03020        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,10
+809,I-03021        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,10
+810,I-03022        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,10
+811,I-03091        ,"TV Atec-Haier  ""29""",Nuevo,2019-012 - Aula  1,10
+812,I-03108        ,"TV Atec-Haier  ""29""",Nuevo,2019-012 - Aula  1,10
+813,I-095193       ,Monitor  LG 15,Nuevo,2019-012 - Aula  1,10
+814,71074,TELEVISOR HIBRIDO DE 32´´ LCD,Nuevo,2019-019 - Aula  3,10
+815,I-00254        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",Nuevo,2019-019 - Aula  3,10
+816,I-01283        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-019 - Aula  3,10
+817,I-01360        ,Pizarra Acrilica,Nuevo,2019-019 - Aula  3,10
+818,I-01439        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-019 - Aula  3,10
+819,I-01440        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-019 - Aula  3,10
+820,I-01899        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+821,I-01900        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+822,I-01901        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+823,I-01902        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+824,I-01903        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+825,I-01904        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+826,I-01905        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+827,I-01906        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+828,I-01907        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+829,I-01908        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+830,I-01909        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+831,I-01910        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+832,I-01911        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+833,I-01912        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+834,I-01913        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+835,I-01914        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+836,I-01915        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+837,I-01916        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+838,I-01917        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+839,I-01918        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+840,I-01919        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+841,I-01920        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+842,I-01921        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+843,I-01922        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+844,I-01923        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+845,I-01924        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+846,I-01925        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+847,I-01926        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+848,I-01927        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+849,I-01928        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+850,I-01929        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+851,I-01930        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+852,I-02413        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,10
+853,I-02980        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+854,I-02981        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+855,I-02982        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+856,I-02983        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+857,I-02984        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+858,I-02985        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+859,I-02986        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+860,I-02987        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+861,I-02988        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+862,I-02989        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+863,I-02990        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+864,I-02991        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+865,I-02992        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+866,I-02993        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+867,I-02994        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+868,I-02995        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,10
+869,I-03104        ,"TV Atec-Haier  ""29""",Nuevo,2019-019 - Aula  3,10
+870,I-03105        ,"TV Atec-Haier  ""29""",Nuevo,2019-019 - Aula  3,10
+871,I-095191       ,Monitor  LG 15,Nuevo,2019-019 - Aula  3,10
+872,50308,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+873,50309,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+874,50310,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+875,50311,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+876,50312,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+877,50313,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+878,50314,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+879,50315,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+880,50316,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+881,64810,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+882,64811,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+883,64812,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+884,64813,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+885,64814,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+886,64815,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+887,64816,MESA PUPITRE,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+888,I-0055522      ,Ventilador de Mesa,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+889,I-0061536      ,VENTILADOR DE MESA,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+890,I-0061537      ,VENTILADOR DE MESA,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+891,I-01073        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+892,I-01081        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+893,I-01098        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+894,I-01117        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+895,I-01118        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+896,I-01119        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+897,I-01120        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+898,I-01124        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+899,I-01126        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+900,I-01128        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+901,I-01129        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+902,I-01130        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+903,I-01131        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+904,I-01146        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+905,I-01147        ,Sillas Pasticas y Metalicas grandes P/ Buro.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+906,I-01293        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+907,I-01298        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+908,I-01385        ,Sillas 950x400x430 mm (Juego de Comedor),Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+909,I-01405        ,Sillas 950x400x430 mm (Juego de Comedor),Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+910,I-01803        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+911,I-01806        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+912,I-01811        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+913,I-01816        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+914,I-01820        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+915,I-01821        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+916,I-01827        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+917,I-01828        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+918,I-01829        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+919,I-01830        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+920,I-01832        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+921,I-03787        ,Mesa de Computacion,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+922,I-901503       ,Ventilador Pedestal Vince,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+923,P-163444       ,MESA DE COMPUTACION,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+924,P-168965       ,MESA DE COMPUTACION,Nuevo,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,11
+925,71072,TELEVISOR HIBRIDO DE 32´´ LCD,Nuevo,2019-012 - Aula  1,11
+926,I-00255        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",Nuevo,2019-012 - Aula  1,11
+927,I-01285        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-012 - Aula  1,11
+928,I-01362        ,Pizarra Acrilica,Nuevo,2019-012 - Aula  1,11
+929,I-01443        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-012 - Aula  1,11
+930,I-01444        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-012 - Aula  1,11
+931,I-01682        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+932,I-01963        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+933,I-01964        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+934,I-01965        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+935,I-01966        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+936,I-01967        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+937,I-01968        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+938,I-01969        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+939,I-01970        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+940,I-01971        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+941,I-01972        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+942,I-01973        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+943,I-01974        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+944,I-01975        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+945,I-01976        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+946,I-01977        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+947,I-01978        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+948,I-01979        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+949,I-01980        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+950,I-01981        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+951,I-01982        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+952,I-01983        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+953,I-01984        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-012 - Aula  1,11
+954,I-03012        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,11
+955,I-03013        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,11
+956,I-03014        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,11
+957,I-03015        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,11
+958,I-03016        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,11
+959,I-03017        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,11
+960,I-03018        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,11
+961,I-03019        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,11
+962,I-03020        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,11
+963,I-03021        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,11
+964,I-03022        ,Mesa Pupitre Escolar,Nuevo,2019-012 - Aula  1,11
+965,I-03091        ,"TV Atec-Haier  ""29""",Nuevo,2019-012 - Aula  1,11
+966,I-03108        ,"TV Atec-Haier  ""29""",Nuevo,2019-012 - Aula  1,11
+967,I-095193       ,Monitor  LG 15,Nuevo,2019-012 - Aula  1,11
+968,71074,TELEVISOR HIBRIDO DE 32´´ LCD,Nuevo,2019-019 - Aula  3,11
+969,I-00254        ,"PC P4 3.0GHZ, P5LD-VM,DDR2 512MB, 80 SATA, DVDRW, con Aopen Mouse W23G/PS2 y Teclado Aopen PS/52",Nuevo,2019-019 - Aula  3,11
+970,I-01283        ,Buro de 1000 en Melamina  pequeño,Nuevo,2019-019 - Aula  3,11
+971,I-01360        ,Pizarra Acrilica,Nuevo,2019-019 - Aula  3,11
+972,I-01439        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-019 - Aula  3,11
+973,I-01440        ,Soporte de TV 650 x 420 x 240 mm,Nuevo,2019-019 - Aula  3,11
+974,I-01899        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+975,I-01900        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+976,I-01901        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+977,I-01902        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+978,I-01903        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+979,I-01904        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+980,I-01905        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+981,I-01906        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+982,I-01907        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+983,I-01908        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+984,I-01909        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+985,I-01910        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+986,I-01911        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+987,I-01912        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+988,I-01913        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+989,I-01914        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+990,I-01915        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+991,I-01916        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+992,I-01917        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+993,I-01918        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+994,I-01919        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+995,I-01920        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+996,I-01921        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+997,I-01922        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+998,I-01923        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+999,I-01924        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+1000,I-01925        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+1001,I-01926        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+1002,I-01927        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+1003,I-01928        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+1004,I-01929        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+1005,I-01930        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+1006,I-02413        ,Sillas Plastica  de tubo redondo C/fondo int.,Nuevo,2019-019 - Aula  3,11
+1007,I-02980        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1008,I-02981        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1009,I-02982        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1010,I-02983        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1011,I-02984        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1012,I-02985        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1013,I-02986        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1014,I-02987        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1015,I-02988        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1016,I-02989        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1017,I-02990        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1018,I-02991        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1019,I-02992        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1020,I-02993        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1021,I-02994        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1022,I-02995        ,Mesa Pupitre Escolar,Nuevo,2019-019 - Aula  3,11
+1023,I-03104        ,"TV Atec-Haier  ""29""",Nuevo,2019-019 - Aula  3,11
+1024,I-03105        ,"TV Atec-Haier  ""29""",Nuevo,2019-019 - Aula  3,11
+1025,I-095191       ,Monitor  LG 15,Nuevo,2019-019 - Aula  3,11
+
+
+TABLE cambio_medio
+cambio_medio.id,cambio_medio.area_ahora,cambio_medio.id_act_medio
+1,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,203
+2,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,204
+3,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,205
+4,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,206
+5,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,207
+6,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,208
+7,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,209
+8,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,210
+9,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,211
+10,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,212
+11,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,213
+12,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,214
+13,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,215
+14,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,216
+15,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,217
+16,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,218
+17,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,219
+18,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,220
+19,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,221
+20,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,222
+21,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,223
+22,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,224
+23,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,225
+24,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,226
+25,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,227
+26,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,228
+27,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,229
+28,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,230
+29,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,231
+30,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,232
+31,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,233
+32,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,234
+33,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,235
+34,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,236
+35,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,237
+36,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,238
+37,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,239
+38,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,240
+39,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,241
+40,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,242
+41,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,243
+42,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,244
+43,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,245
+44,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,246
+45,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,247
+46,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,248
+47,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,249
+48,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,250
+49,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,251
+50,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,252
+51,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,253
+52,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,254
+53,2019-132 - ALMACEN DE LA FAC. CIENCIAS INFORMATICAS,255
+
+
+END

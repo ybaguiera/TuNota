@@ -1,0 +1,169 @@
+{{extend 'layout_ela.html'}}
+
+{{block head}}
+<link rel="stylesheet" type="text/css" href="{{=URL('static/plantilla', 'vendor/datatables/jquery_datatable/jquery.dataTables.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{=URL('static/plantilla', 'vendor/datatables/autofill_datatable/autoFill.bootstrap4.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{=URL('static/plantilla', 'vendor/datatables/buttons/buttons.bootstrap4.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{=URL('static/plantilla', 'vendor/datatables/colReorder/colReorder.bootstrap4.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{=URL('static/plantilla', 'vendor/datatables/fixed_columns/fixedColumns.bootstrap4.min.css')}}">
+
+<link rel="stylesheet" type="text/css" href="{{=URL('static/plantilla', 'vendor/datatables/fixedHeader/fixedHeader.bootstrap4.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{=URL('static/plantilla', 'vendor/datatables/keyTable/keyTable.dataTables.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{=URL('static/plantilla', 'vendor/datatables/responsive/responsive.dataTables.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{=URL('static/plantilla', 'vendor/datatables/rowGroup/rowGroup.dataTables.min.css')}}">
+
+<link rel="stylesheet" type="text/css" href="{{=URL('static/plantilla', 'vendor/datatables/rowReorder/rowReorder.dataTables.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{=URL('static/plantilla', 'vendor/datatables/select/select.dataTables.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{=URL('static/plantilla', 'vendor/datatables/scroller/scroll.min.css')}}">
+
+<style>
+.dt-buttons{
+    margin-bottom: 5px!important;
+}
+</style>
+
+{{end head}}
+ <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong> Consulta {{=consulta}} estudiantes</strong>
+                                        
+                                    </div>
+                                    
+                                    <div class="card-body card-block">
+                                       {{=grid}}
+                                    </div>
+                                </div>
+                            </div>
+{{block page_js}}
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/jquery_datatable/jquery.dataTables.min.js')}}"></script>
+<script src="{{=URL('static/plantilla', 'vendor/datatables/jquery_datatable/dataTables.bootstrap4.min.js')}}"></script>
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/autofill_datatable/dataTables.autoFill.min.js')}}"></script>
+<script src="{{=URL('static/plantilla', 'vendor/datatables/autofill_datatable/autoFill.bootstrap4.min.js')}}"></script>
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/buttons/dataTables.buttons.min.js')}}"></script>
+<script src="{{=URL('static/plantilla', 'vendor/datatables/buttons/buttons.bootstrap4.min.js')}}"></script>
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/jszip.min.js')}}"></script>
+<script src="{{=URL('static/plantilla', 'vendor/datatables/pdfmake.min.js')}}"></script>
+<script src="{{=URL('static/plantilla', 'vendor/datatables/vfs_fonts.js')}}"></script>
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/buttons_export/buttons.colVis.min.js')}}"></script>
+<script src="{{=URL('static/plantilla', 'vendor/datatables/buttons_export/buttons.flash.min.js')}}"></script>
+<script src="{{=URL('static/plantilla', 'vendor/datatables/buttons_export/buttons.html5.min.js')}}"></script>
+<script src="{{=URL('static/plantilla', 'vendor/datatables/buttons_export/buttons.print.min.js')}}"></script>
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/colReorder/dataTables.colReorder.min.js')}}"></script>
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/fixed_columns/dataTables.fixedColumns.min.js')}}"></script>
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/fixedHeader/dataTables.fixedHeader.min.js')}}"></script>
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/keyTable/dataTables.keyTable.min.js')}}"></script>
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/responsive/dataTables.responsive.min.js')}}"></script>
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/rowGroup/dataTables.rowGroup.min.js')}}"></script>
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/rowReorder/dataTables.rowReorder.min.js')}}"></script>
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/scroller/dataTables.scroller.min.js')}}"></script>
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/select/dataTables.select.min.js')}}"></script>
+
+
+<script src="{{=URL('static/plantilla', 'vendor/datatables/moment.js')}}"></script>
+<script src="{{=URL('static/plantilla', 'vendor/datatables/moment.dataTables.js')}}"></script>
+
+<script>
+$(document).ready(function() {
+    $.fn.dataTable.moment('DD/MM/YYYY');
+
+    var table = $('table').DataTable({
+    // columnDefs: [
+    //     {
+    //         "targets": [8 ],
+    //         "visible": false,
+    //         "searchable": false
+    //     }           
+    // ],
+    dom: 'Bflrtip',
+    buttons: ['copyHtml5',
+        {
+            extend: 'excelHtml5',
+            text: 'Excel',
+            title: 'Listado de estudiantes',
+            filename: 'list_estudiantes',
+            exportOptions: {
+                columns: [0, 1, 2,3,4,5,6]
+            },
+        },
+        {
+            extend: 'pdfHtml5',
+            text: 'PDF',
+            title: 'Listado de estudiantes',
+            filename: 'list_estudiantes',
+            pageSize: 'LETTER',
+            exportOptions: {
+                columns: [0, 1, 2,3,4,5,6]
+            },
+            // customize: function (doc) {
+            //     doc.content[1].table.widths = [
+            //         '25%',
+            //         '25%',
+            //         '25%',
+            //         '25%',
+            //     ]
+            // }
+        },
+        {
+            extend: 'print',            
+            exportOptions: {
+                columns: [0, 1, 2]
+            },
+            // customize: function (doc) {
+            //     doc.content[1].table.widths = [
+            //         '25%',
+            //         '25%',
+            //         '25%',
+            //         '25%',
+            //     ]
+            // }
+        }, 
+    'colvis', 
+            ],
+    language: {
+        "decimal": "",
+        "emptyTable": "{{=T('No hay información')}}",
+        "info": "{{=T('Mostrando _START_ a _END_ de _TOTAL_ Entradas')}}",
+        "infoEmpty": "{{=T('Mostrando 0 to 0 of 0 Entradas')}}",
+        "infoFiltered": "{{=T('(Filtrado de _MAX_ total entradas)')}}",
+        "infoPostFix": "",
+        "thousands": ",",
+        "lengthMenu": "{{=T('Mostrar _MENU_ Entradas')}}",
+        "loadingRecords": "{{=T('Cargando...')}}",
+        "processing": "{{=T('Procesando...')}}",
+        "search": "{{=T('Buscar:')}}",
+        "zeroRecords": "{{=T('Sin resultados encontrados')}}",
+        "paginate": {
+            "first": "{{=T('Primero')}}",
+            "last": "{{=T('Último')}}",
+            "next": "{{=T('Siguiente')}}",
+            "previous": "{{=T('Anterior')}}"
+        },
+        "buttons":{
+            "copy": "Copiar",
+            "print": "Imprimir",
+            "colvis": "Columnas visibles"
+        } 
+    }
+    });
+ 
+});
+
+$('table').addClass('table table-hover table-striped table-bordered');
+
+</script>
+{{end page_js}}

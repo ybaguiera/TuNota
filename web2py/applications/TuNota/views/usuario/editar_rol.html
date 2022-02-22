@@ -1,0 +1,12 @@
+{{extend 'layout_ela.html'}}
+
+<div class="card">
+     <div>{{=A("Volver", _href="javascript:history.back(1)", _class="btn btn-info")}}</div>
+    <h1>{{=T("Nombre de usuario:  ")}}<b>{{=db.auth_user(db.auth_user.id == rol.user_id).username}}</b></h1>
+
+    <div class="card-body">
+        <br/>
+    {{=formulario}}
+
+    </div>
+</div>

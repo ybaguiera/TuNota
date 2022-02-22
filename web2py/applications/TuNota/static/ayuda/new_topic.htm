@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if(top.frames.length==0) { top.location.href=".html?new_topic.htm"; }
+else { parent.quicksync('a2.3.1'); }
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script>
+   <title>Cargar datos desde archivo CSV</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+</head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000;"></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Cargar datos desde archivo CSV</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="sub_chapter_2_1.htm">Previous</a>&nbsp;
+     <a href="sistema_movil3.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p style="text-align: justify;"><span style="font-size: 12pt;">Antes de realizar operaciones sobre los datos de los medios b&#225;sicos, estos necesitan ser cargados. Primero se necesita el fichero Excel que contiene todos estos datos, el cu&#225;l es generado por el Sistema que utiliza el personal de Contabilidad. Como este Sistema no es el mismo para todas las entidades, se requiere que la informaci&#243;n sea pre-formateada y luego guardada en un fichero CSV (o Valores separados por coma). No importa si no se puede obtener este fichero, basta con tener la informaci&#243;n.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt;">Primero se crea un fichero Excel y luego se le adicionan los datos en el siguiente formato:</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt;">Para la informaci&#243;n de cada &#225;rea se inicia con el nombre del responsable, primero se pone </span><span style="font-size: 12pt; font-weight: bold;">Responsable: </span><span style="font-size: 12pt;">y un espacio y luego el nombre. </span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt;">&nbsp;</span></p>
+<div style="text-align: justify; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr valign="baseline"><td width="13"><span style="font-size: 12pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td><span style="font-size: 12pt;">Primera fila, primera columna:</span><span style="font-size: 12pt; font-weight: bold;"> Responsable:</span><span style="font-size: 12pt;"> NombreDelResponsable.</span></td></tr></table></div><p style="text-align: justify;"><span style="font-size: 12pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><table border="0" cellpadding="0" cellspacing="0" width="762"><tr valign="top"><td align="center"><img src="asdcopia.png" width="762" height="224" border="0" alt="Nombre del responsable"><br><span class="f_ImageCaption" style="font-size: 12pt;">Nombre del responsable</span></td></tr></table></p>
+<p style="text-align: justify;"><span style="font-size: 12pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt;">Luego, se inserta el nombre del &#225;rea, primero se escribe </span><span style="font-size: 12pt; font-weight: bold;">Area: (sin tilde),</span><span style="font-size: 12pt;"> un espacio y luego el nombre:</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt;">&nbsp;</span></p>
+<div style="text-align: justify; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr valign="baseline"><td width="13"><span style="font-size: 12pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td><span style="font-size: 12pt;">Segunda fila, primera columna: </span><span style="font-size: 12pt; font-weight: bold;">Area:  </span><span style="font-size: 12pt;">NombreDelArea.</span></td></tr></table></div><p style="text-align: justify;"><span style="font-size: 12pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><table border="0" cellpadding="0" cellspacing="0" width="768"><tr valign="top"><td align="center"><img src="asd2copia.zoom93.png" width="768" height="206" border="0" alt="Nombre del &#225;rea"><br><span class="f_ImageCaption" style="font-size: 12pt;">Nombre del &#225;rea</span></td></tr></table></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">Despu&#233;s se deja un espacio en blanco y se insertan todos los medios de la siguiente manera. Por cada medio se pone, en la primera columna el c&#243;digo y en la segunda columna la descripci&#243;n.</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+<div style="text-align: justify; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr valign="baseline"><td width="13"><span style="font-size: 12pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">Primera columna: I-856523</span></td></tr></table></div><div style="text-align: justify; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr valign="baseline"><td width="13"><span style="font-size: 12pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">Segunda columna: Silla pl&#225;stica</span></td></tr></table></div><p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+<p style="text-align: justify;"><table border="0" cellpadding="0" cellspacing="0" width="858"><tr valign="top"><td align="center"><img src="codigocopia.png" width="858" height="665" border="0" alt="Datos de los medios"><br><span class="f_ImageCaption" style="font-size: 12pt;">Datos de los medios</span></td></tr></table></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt;">Importante: </span><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">Ninguno de los datos debe contener el caracter punto y coma ( </span><span class="f_ImageCaption" style="font-size: 12pt;">; </span><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">).</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt;">Nota: </span><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">Los medios se pueden adicionar dejando espacios en blanco, pero por organizaci&#243;n es preferible que se inserten uno debajo de otro.</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">Para adicionar otra &#225;rea, se deja un espacio en blanco y luego se repite el proceso anterior con los nuevos datos (no importa que se repita el Responsable, lo importante es que ni el &#225;rea ni los medios se repitan):</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+<p style="text-align: justify;"><table border="0" cellpadding="0" cellspacing="0" width="505"><tr valign="top"><td align="center"><img src="excecopia.png" width="505" height="596" border="0" alt="Adicionar m&#250;ltiples datos"><br><span class="f_ImageCaption" style="font-size: 12pt;">Adicionar m&#250;ltiples datos</span></td></tr></table></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">Despu&#233;s de tener todos los datos guardados en el Excel, guardamos el fichero en formato CSV. En este ejemplo se utiliza el Excel 2016, pero puede utilizarse cualquier procesador de hojas de c&#225;lculo siempre y cuando pueda exportar los ficheros en este formato. En caso de utilizar el Excel, se realiza de la siguiente forma:</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+<div style="text-align: justify; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr valign="baseline"><td width="18"><span style="font-weight: bold; font-size: 12pt; font-family: 'Arial'; color: #000000;">1.</span></td><td><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">Se selecciona </span><span class="f_ImageCaption" style="font-size: 12pt;">Archivo &gt; Guardar como </span><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">y se selecciona la opci&#243;n </span><span class="f_ImageCaption" style="font-size: 12pt;">Examinar:</span></td></tr></table></div><p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><img src="exceeecopia.zoom69.png" width="992" height="593" border="0" alt="exceeecopia"></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">2. Luego se selecciona el directorio donde guardaremos el fichero y el formato </span><span class="f_ImageCaption" style="font-size: 12pt;">CSV,</span><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;"> despu&#233;s presionamos la opci&#243;n </span><span class="f_ImageCaption" style="font-size: 12pt;">Guardar</span><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">:</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><table border="0" cellpadding="0" cellspacing="0" width="1052"><tr valign="top"><td align="center"><img src="exceeecopiasdasda.zoom73.png" width="1052" height="629" border="0" alt="Guardar archivo CSV"><br><span class="f_ImageCaption" style="font-size: 12pt;">Guardar archivo CSV</span></td></tr></table></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt;">Importante: </span><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">Despu&#233;s de guardar el fichero en el formato CSV, no lo abra con el Excel, utilice un editor de texto plano. Ya que al cargarlo en el Excel se pueden perder datos importantes como el 0 delante de un c&#243;digo (09729 -- 9729). Para volver a modificar los datos, utilice el archivo Excel previo y sobrescriba el fichero csv.</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">Despu&#233;s de tener el fichero </span><span class="f_ImageCaption" style="font-size: 12pt;">CSV, </span><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">vaya al sistema web y seleccione la opci&#243;n del men&#250; </span><span class="f_ImageCaption" style="font-size: 12pt;">Base de datos &gt; Importar datos</span><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">:</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+<p style="text-align: justify;"><table border="0" cellpadding="0" cellspacing="0" width="1070"><tr valign="top"><td align="center"><img src="acopia.zoom75.png" width="1070" height="558" border="0" alt="Seleccionar opci&#243;n Importar Datos"><br><span class="f_ImageCaption" style="font-size: 12pt;">Seleccionar opci&#243;n Importar Datos</span></td></tr></table></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">Posteriormente presione el bot&#243;n </span><span class="f_ImageCaption" style="font-size: 12pt;">Examinar </span><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">y seleccione el fichero csv:</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+<p style="text-align: justify;"><table border="0" cellpadding="0" cellspacing="0" width="1301"><tr valign="top"><td align="center"><img src="asddascopia.zoom92.png" width="1301" height="468" border="0" alt="Seleccionar archivo CSV"><br><span class="f_ImageCaption" style="font-size: 12pt;">Seleccionar archivo CSV</span></td></tr></table></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">Luego seleccione el bot&#243;n </span><span class="f_ImageCaption" style="font-size: 12pt;">Importar:</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><table border="0" cellpadding="0" cellspacing="0" width="488"><tr valign="top"><td align="center"><img src="rec.png" width="488" height="250" border="0" alt="Importar fichero"><br><span class="f_ImageCaption" style="font-size: 12pt;">Importar fichero</span></td></tr></table></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt;">&nbsp;</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">Si los datos son cargados correctamente el sistema mostrar&#225; los cambios realizados en la base de datos con respecto a los datos anteriores, si no mostrar&#225; un mensaje de error:</span></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+<p style="text-align: justify;"><table border="0" cellpadding="0" cellspacing="0" width="1163"><tr valign="top"><td align="center"><img src="cambios.zoom81.png" width="1163" height="727" border="0" alt="Informaci&#243;n de los cambios efectuados"><br><span class="f_ImageCaption" style="font-size: 12pt;">Informaci&#243;n de los cambios efectuados</span></td></tr></table></p>
+<p style="text-align: justify;"><span class="f_ImageCaption" style="font-size: 12pt; font-weight: normal;">&nbsp;</span></p>
+
+</td></tr></table>
+
+</body>
+</html>

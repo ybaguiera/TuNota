@@ -1,0 +1,272 @@
+{{extend 'layout_ela.html'}}
+{{block header}}
+
+<style>
+
+
+    #DataTables_Table_0_paginate, #DataTables_Table_0_info {
+        padding: 20px !important;
+    }
+
+    table {
+        width: 100% !important;
+    }
+
+    .respAsig {
+        margin-top: 70px;
+    }
+
+    h2 {
+        margin-bottom: 0px !important;
+    }
+
+    .detalles {
+        width: 20% !important;
+    }
+
+    .alinear {
+        padding-right: 30px !important;
+    }
+
+    tr > td {
+        padding: 8px !important;
+    }
+
+    .card-body {
+        padding: 10px !important;
+
+    }
+</style>
+{{end}}
+{{block page_js}}
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/datatables.min.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/datatables-init.js')}}"></script>
+
+
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js')}}"></script>
+<script src="{{=URL('static','vendor/layout_ela/js/lib/datatables/datatables-init.js')}}"></script>
+
+<script>
+    $('.web2py_htmltable').find('table').DataTable({
+        dom: 'lfrtiBp',
+        buttons: [
+            {
+                extend: 'pdfHtml5',
+                text: 'Generar reporte PDF',
+                title: 'Listado de responsables',
+                filename: 'Responsables',
+                pageSize: 'LETTER',
+                exportOptions: {
+                    columns: [0]
+                },
+                customize: function (doc) {
+                    doc.content[1].table.widths = [
+                        '100%',
+                        '0%'
+                    ]
+                }
+            }
+        ],
+        language: {
+            "decimal": "",
+            "emptyTable": "{{=T("No hay información")}}",
+            "info": "{{=T("Mostrando _START_ a _END_ de _TOTAL_ Entradas")}}",
+            "infoEmpty": "{{=T("Mostrando 0 to 0 of 0 Entradas")}}",
+            "infoFiltered": "{{=T("(Filtrado de _MAX_ total entradas)")}}",
+            "infoPostFix": "",
+            "thousands": ",",
+            "lengthMenu": "{{=T("Mostrar _MENU_ Entradas")}}",
+            "loadingRecords": "{{=T("Cargando...")}}",
+            "processing": "{{=T("Procesando...")}}",
+            "search": "{{=T("Buscar:")}}",
+            "zeroRecords": "{{=T("Sin resultados encontrados")}}",
+            "paginate": {
+                "first": "{{=T("Primero")}}",
+                "last": "{{=T("Último")}}",
+                "next": "{{=T("Siguiente")}}",
+                "previous": "{{=T("Anterior")}}"
+            }
+
+        }
+    });
+    $('.web2py_htmltable').find('table').addClass('display nowrap table table-hover table-striped table-bordered');
+</script>
+{{end page_js}}
+{{if request.args(0)=="aceptada":}}
+
+                <div class="col-lg-12">
+                   <div class="alert alert-success alert-mg-b alert-success-style4">
+                            <button type="button" class="close sucess-op" data-dismiss="alert" aria-label="Close">
+                                <span class="icon-sc-cl" aria-hidden="true">&times;</span>
+                            </button>
+                            <span class="adminpro-icon adminpro-danger-error admin-check-sucess"></span>
+                            <p><strong>Importante!</strong> Su reclamación ha sido enviada.</p>
+                    
+                    </div>
+                </div>
+              
+      
+
+{{pass}} 
+{{if request.args(0)=="vista":}}
+
+                <div class="col-lg-12">
+                   <div class="alert alert-success alert-mg-b alert-success-style4">
+                            <button type="button" class="close sucess-op" data-dismiss="alert" aria-label="Close">
+                                <span class="icon-sc-cl" aria-hidden="true">&times;</span>
+                            </button>
+                            <span class="adminpro-icon adminpro-danger-error admin-check-sucess"></span>
+                            <p><strong>Importante!</strong> Para poder ver la prueba deberá estar {{=session.mostrado}} en la Sede Manuel Ascunce Domenech.</p>
+                    
+                    </div>
+                </div>
+              
+      
+
+{{pass}} 
+
+ <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong class="card-title mb-3">{{=T("Datos del estudiante")}}</strong>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="mx-auto d-block">
+                                            <h5 class="text-sm-center mt-2 mb-1">{{=estudiante.nombre_apellidos}}</h5>
+                                            <div class="location text-sm-center">
+                                                <i class="fa fa-text-width"></i> CI: {{=estudiante.ci}}</div>
+                                                <div class="location text-sm-center">
+                                                <i class="fa fa-home"></i>Centro: {{=estudiante.centro}}</div>
+                                                <div class="location text-sm-center">
+                                                <i class="fa  fa-calendar-o"></i> Curso: {{=estudiante.id_curso.inicio}} - {{=estudiante.id_curso.fin}}</div>
+                                       {{if not estudiante.carrera_otorgada is None:}}
+                                        <div class="location text-sm-center">
+                                                <i class="fa  fa-trophy"></i>Carrera: {{=estudiante.carrera_otorgada}}</div>
+                                                 <div class="location text-sm-center">
+                                          <i class="fa  fa-info-circle"></i> Indice Académico: {{=estudiante.ia}} </div>
+
+                                                  <div class="location text-sm-center">
+                                          <i class="fa  fa-bar-chart-o"></i> Escalafón: {{=estudiante.escalafon}}</div>
+                                          {{if not estudiante.ces =="":}}
+                                           <div class="location text-sm-center">
+                                          <i class="fa  fa-map-marker"></i> CES: {{=estudiante.ces}}</div>
+                                       {{pass}}
+                                         {{pass}} 
+                                        </div>
+                                        <hr>
+                                        <div class="card-text text-sm-center">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+   </div>
+   <div class="row">
+   {{for aux_nota in notas:}}
+                 {{session.reclamaciones=db(db.reclamacion.id_notas==aux_nota.id).select().first()}}
+                                          
+                            <div class="col-lg-3">
+                                <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
+                                    <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
+                                        <div class="bg-overlay bg-overlay--blue"></div>
+                                        <h3>
+                                            {{=aux_nota.id_asignatura.nombre}}</h3>                                       
+                                    </div>
+                                    <div class="au-task js-list-load">
+                                        <div class="au-task__title">
+                                            <p>{{=aux_nota.id_tipo_examen.tipo}}</p>
+                                        </div>
+                                        <div class="au-task-list js-scrollbar3">
+                                            <div class="au-task__item au-task__item--success">
+                                                <div class="au-task__item-inner">
+                                                    <h1 class="task">
+                                                       <span class="time">{{=aux_nota.nota}}</span>
+                                                    </h1>                                                   
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
+                                        <div class="au-task__footer">
+                                          {{fechas=db((db.fechas.id_asignatura==aux_nota.id_asignatura)&(db.fechas.id_tipo_examen==aux_nota.id_tipo_examen)&(db.fechas.id_curso==id_curso)).select().first()}}
+                                            {{if not fechas is None :}}
+                                            {{if fechas.fecha_reclamacion == fechat:}}
+                                            {{recl=0}}
+                                            {{for aux_reclamacion in reclamaciones:}}                                            
+                                            {{if aux_reclamacion.id_notas==aux_nota.id:}}                                            
+                                            {{recl=1}}
+                                            {{if aux_nota.nota==100.00:}}
+                                            <b>No puede reclamar porque alcanzó el máximo de puntos</b>
+                                            {{else:}}
+                                            {{if aux_reclamacion.aceptada=='True':}}
+<b>Reclamación aprobada</b>
+{{else:}}
+<b>Reclamación enviada</b>
+ {{pass}}
+                                            {{pass}} 
+                                            {{pass}} 
+                                            {{pass}} 
+                                            {{if recl==0:}}
+                                            {{if aux_nota.nota==100.00:}}
+                                            No puede reclamar porque alcanzó el máximo de puntos
+                                            {{else:}}
+                                             <a href="{{=URL('estudiante','reclamar',args=aux_nota.id)}}" class="au-btn au-btn-load js-load-btn" id="btn-archive">Reclamar</a>
+                                             {{pass}} 
+                                             {{pass}}
+                                             {{else:}}
+                                             {{if aux_nota.nota==100:}}
+                                             No puede reclamar porque alcanzó el máximo de puntos
+                                            {{else:}}
+                                            {{if session.reclamaciones is None:}}
+                                            Reclamación {{=fechas.fecha_reclamacion}}
+                                            {{else:}}
+                                            {{for aux_reclamacion in reclamaciones:}}                                            
+                                            {{if aux_reclamacion.id_notas==aux_nota.id:}}
+                                            {{if aux_reclamacion.aceptada=='True':}}
+<b>Reclamación aprobada</b>
+{{else:}}
+<b>Reclamación enviada</b>
+ {{pass}}
+                                            {{pass}}
+                                            {{pass}}
+                                            {{pass}}
+                                            {{pass}}                                              
+                                             {{pass}} 
+                                             </br>
+                                             </br>
+                                             
+ {{if not session.reclamaciones is  None:}}
+ {{if session.reclamaciones.vista=="True":}}
+ <b>Solicitud de mostrado aprobada</b>
+ {{else:}}
+ {{fechan=db((db.fechas.id_asignatura==aux_nota.id_asignatura)&(db.fechas.id_tipo_examen==aux_nota.id_tipo_examen)&(db.fechas.id_curso==id_curso)).select().first()}}
+ {{if fechat==fechan.fecha_reclamacion_mostrado:}}
+  {{if (aux_nota.nota >= 40) :}}
+    <a href="{{=URL('estudiante','vista',args=session.reclamaciones.id)}}" class="au-btn au-btn-load js-load-btn" id="btn-archive">Solicitar Vista de examen</a>
+ {{else:}}
+  <b>No puedo ver su nota por no alcanzar 40 puntos o más</b>
+ {{pass}}
+ {{pass}} 
+ {{pass}}   
+ {{pass}}   
+ {{pass}}                                   
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                      
+                                        
+   {{pass}} 
+ 
+   </div>
+ 
+ 

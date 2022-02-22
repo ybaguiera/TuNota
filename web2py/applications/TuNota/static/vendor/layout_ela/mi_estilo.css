@@ -1,0 +1,61 @@
+.footer {
+    position: static !important;
+}
+
+tbody tr td {
+    font-family: 'Poppins', sans-serif !important;
+    color: rgba(0, 0, 0, 0.69) !important;
+    text-align: left !important;
+    vertical-align: middle !important;
+}
+
+th {
+    text-align: left !important;
+}
+
+.logo {
+    width: 250px;
+    margin: auto !important;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.contenedor-logo {
+    text-align: center;
+}
+
+.submit > input {
+    background-color: #309f4f;
+    background: #309f4f !important;
+}
+
+.submit > input:hover {
+    background-color: #5c9f4f;
+    box-shadow: 0 0 0 .2rem rgba(8, 159, 16, 0.45) !important;
+}
+
+.submit > input.focus, .submit > input:focus {
+    box-shadow: 0 0 0 .2rem #5c9f4f !important;
+}
+
+.login-form {
+    padding: 15px 30px 20px !important;
+}
+
+
+/*.submit>input.disabled, .submit>input:disabled {*/
+/*color: #fff;*/
+/*background-color: #007bff;*/
+/*border-color: #007bff*/
+/*}*/
+
+/*.submit>input:not(:disabled):not(.disabled).active, .submit>input:not(:disabled):not(.disabled):active, .show > .submit>input.dropdown-toggle {*/
+/*color: #fff;*/
+/*background-color: #0062cc;*/
+/*border-color: #005cbf*/
+/*}*/
+
+/*.submit>input:not(:disabled):not(.disabled).active:focus, .submit>input:not(:disabled):not(.disabled):active:focus, .show > .submit>input.dropdown-toggle:focus {*/
+
+/*}*/
+
